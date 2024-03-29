@@ -106,6 +106,33 @@ const Features = () => {
                   </p>
                 </div>
               </div>
+
+              <div className="feature-video-container mt-16">
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img
+                    src={taurus1Img}
+                    alt="titanium"
+                    className="feature-video g_grow"
+                  />
+                </div>
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img
+                    src={taurus2Img}
+                    alt="titanium 2"
+                    className="feature-video g_grow"
+                  />
+                </div>
+              </div>
+
+              <div className="feature-video-container mt-16">
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img
+                    src={taurus1Img}
+                    alt="titanium"
+                    className="feature-video g_grow"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
