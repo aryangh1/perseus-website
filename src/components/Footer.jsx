@@ -38,7 +38,7 @@ const Footer = () => {
           <p className="font-semibold text-gray text-xs">
             Copyright &copy; {updatedDate} Perseus Inc. All rights reserved.
           </p>
-          <div className="flex">
+          <div className="flex max-sm:hidden">
             {footerLinks.map((link, i) => (
               <p key={link} className="font-semibold text-gray text-xs">
                 {link}{' '}
