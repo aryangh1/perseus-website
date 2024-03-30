@@ -1,7 +1,14 @@
 import { useGSAP } from '@gsap/react';
 import { useRef } from 'react';
 import { animateWithGsap } from '../utils/animations';
-import { exploreVideo, taurus1Img, taurus2Img } from '../utils';
+import {
+  taurus1Img,
+  taurus2Img,
+  genesis1Img,
+  kengo1Img,
+  kengo2Img,
+  CFR1Img,
+} from '../utils';
 import gsap from 'gsap';
 
 const Features = () => {
@@ -51,7 +58,17 @@ const Features = () => {
           </div>
 
           <div className="flex-center flex-col sm:px-10">
-            <div className="relative h-[50vh] w-full flex items-center">
+            <div className="feature-video-container mb-4 mt-16">
+              <div className="overflow-hidden flex-1 h-[50vh]">
+                <img
+                  src={genesis1Img}
+                  alt="titanium"
+                  className="feature-video g_grow"
+                />
+              </div>
+            </div>
+
+            {/* <div className="relative h-[50vh] w-full flex items-center">
               <video
                 playsInline
                 id="exploreVideo"
@@ -63,7 +80,7 @@ const Features = () => {
               >
                 <source src={exploreVideo} type="video/mp4" />
               </video>
-            </div>
+            </div> */}
 
             <div className="flex flex-col w-full relative">
               <div className="feature-video-container">
@@ -107,27 +124,27 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="feature-video-container mt-16">
+              <div className="feature-video-container mt-12">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
-                    src={taurus1Img}
+                    src={kengo1Img}
                     alt="titanium"
                     className="feature-video g_grow"
                   />
                 </div>
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
-                    src={taurus2Img}
+                    src={kengo2Img}
                     alt="titanium 2"
                     className="feature-video g_grow"
                   />
                 </div>
               </div>
 
-              <div className="feature-video-container mt-16">
+              <div className="feature-video-container mt-4">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
-                    src={taurus1Img}
+                    src={CFR1Img}
                     alt="titanium"
                     className="feature-video g_grow"
                   />

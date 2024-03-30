@@ -28,6 +28,11 @@ import white from '/assets/images/white.jpg';
 import black from '/assets/images/black.jpg';
 import taurus1 from '/assets/images/taurus1.jpeg';
 import taurus2 from '/assets/images/taurus2.jpeg';
+import genesis1 from '/assets/images/genesis1.jpg';
+import kengo1 from '/assets/images/kengo1.jpg';
+import kengo2 from '/assets/images/kengo2.jpg';
+import CFR1 from '/assets/images/CFR1.jpg';
+import CFR2 from '/assets/images/CFR2.jpg';
 import chip from '/assets/images/chip.jpeg';
 import frame from '/assets/images/frame.png';
 
@@ -57,5 +62,11 @@ export const whiteImg = white;
 export const blackImg = black;
 export const taurus1Img = taurus1;
 export const taurus2Img = taurus2;
+export const genesis1Img = genesis1;
+export const kengo1Img = kengo1;
+export const kengo2Img = kengo2;
+export const CFR1Img = CFR1;
+export const CFR2Img = CFR2;
+
 export const chipImg = chip;
 export const frameImg = frame;
