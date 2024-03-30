@@ -50,7 +50,7 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col justify-center items-start overflow-hidden">
-          <div className="mt-32 mb-24 pl-24">
+          <div className="mt-32 mb-24 pl-24 max-sm:pl-8">
             <h2 className="text-5xl lg:text-7xl font-semibold">Blending</h2>
             <h2 className="text-5xl lg:text-7xl font-semibold">
               strategies with creativity.
@@ -124,7 +124,7 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="feature-video-container mt-12">
+              <div className="feature-video-container mt-12 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={kengo1Img}
@@ -141,7 +141,7 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="feature-video-container mt-4">
+              <div className="feature-video-container mt-4 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={CFR1Img}
