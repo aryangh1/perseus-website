@@ -4,6 +4,7 @@ import Highlights from './Highlights';
 import VideoCarousel from './VideoCarousel';
 import Features from './Features';
 import HowItWorks from './HowItWorks';
+import Services from './Services';
 import Footer from './Footer';
 
 export {
@@ -13,5 +14,6 @@ export {
   VideoCarousel,
   Features,
   HowItWorks,
+  Services,
   Footer,
 };

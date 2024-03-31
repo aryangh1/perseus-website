@@ -7,6 +7,12 @@ import {
   highlightThirdVideo,
   whiteImg,
   yellowImg,
+  videographyImg,
+  socialMediaManagementImg,
+  brandingImg,
+  photoImg,
+  webDesignImg,
+  contentCreationImg,
 } from '../utils';
 
 export const navLists = [
@@ -102,6 +108,45 @@ export const models = [
 export const sizes = [
   { label: '6.1"', value: 'small' },
   { label: '6.7"', value: 'large' },
+];
+
+export const servicesSection = [
+  {
+    id: 1,
+    title: 'Branding',
+    desc: "We create unique brands that make your business stand out. It's not just about logos, but building a strong identity that truly represents you.",
+    icon: brandingImg,
+  },
+  {
+    id: 2,
+    title: 'Videography',
+    desc: "Our videos are more than just footage – they are stories told with quality and style. We focus on making each video a reflection of your brand's heart and soul.",
+    icon: videographyImg,
+  },
+  {
+    id: 3,
+    title: 'Social Media Management',
+    desc: 'We handle your social media with care, making sure every post speaks to your audience and builds your online community',
+    icon: socialMediaManagementImg,
+  },
+  {
+    id: 4,
+    title: 'Content Creation',
+    desc: "We create content that speaks to your customers. It's engaging, thoughtful, and always aligned with what your audience wants to see and hear.",
+    icon: contentCreationImg,
+  },
+  {
+    id: 5,
+    title: 'Web Design',
+    desc: 'Our websites are easy to use and beautiful to look at. We balance design and function to make sure your website is a hit with your customers.',
+    icon: webDesignImg,
+  },
+  {
+    id: 6,
+    title: 'Photography',
+    desc: 'Our photography captures the essence of your brand in every shot. We focus on quality, ensuring each image tells a story and connects with your audience.',
+    icon: photoImg,
+  },
 ];
 
 export const footerLinks = [

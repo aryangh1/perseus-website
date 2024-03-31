@@ -33,6 +33,12 @@ import CFR1 from '/assets/images/CFR1.jpg';
 import CFR2 from '/assets/images/CFR2.jpg';
 import chip from '/assets/images/chip.jpeg';
 import frame from '/assets/images/frame.png';
+import videography from '/assets/images/videography.svg';
+import socialMediaManagement from '/assets/images/socialmediamanagement.svg';
+import branding from '/assets/images/branding.svg';
+import photo from '/assets/images/photo.svg';
+import webDesign from '/assets/images/webdesign.svg';
+import contentCreation from '/assets/images/contentcreation.svg';
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -63,6 +69,12 @@ export const kengo1Img = kengo1;
 export const kengo2Img = kengo2;
 export const CFR1Img = CFR1;
 export const CFR2Img = CFR2;
+export const videographyImg = videography;
+export const socialMediaManagementImg = socialMediaManagement;
+export const brandingImg = branding;
+export const photoImg = photo;
+export const webDesignImg = webDesign;
+export const contentCreationImg = contentCreation;
 
 export const chipImg = chip;
 export const frameImg = frame;
