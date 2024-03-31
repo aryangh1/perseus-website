@@ -30,7 +30,7 @@ const Features = () => {
     animateWithGsap(
       '.g_grow',
       { scale: 1, opacity: 1, ease: 'power1' },
-      { scrub: 5.5 }
+      { scrub: 25 }
     );
     animateWithGsap('.g_text', {
       y: 0,

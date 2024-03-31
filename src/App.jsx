@@ -1,6 +1,14 @@
 import './App.css';
 
-import { Hero, Highlights, Features, Services, HowItWorks } from './components';
+import {
+  Hero,
+  Highlights,
+  Features,
+  Services,
+  Gallery,
+  Clients,
+  HowItWorks,
+} from './components';
 
 import * as Sentry from '@sentry/react';
 
@@ -11,7 +19,9 @@ const App = () => {
         <Hero />
         <Highlights />
         <Features />
+        <Gallery />
         <Services />
+        <Clients />
         <HowItWorks />
       </main>
     </>

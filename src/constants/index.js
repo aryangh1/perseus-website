@@ -13,6 +13,10 @@ import {
   photoImg,
   webDesignImg,
   contentCreationImg,
+  taurus2Img,
+  taurus1Img,
+  CFR2Img,
+  perseusWhiteImg,
 } from '../utils';
 
 export const navLists = [
@@ -149,10 +153,56 @@ export const servicesSection = [
   },
 ];
 
+export const galleryImg = [
+  {
+    id: 1,
+    srcImg: taurus2Img,
+  },
+  {
+    id: 2,
+    srcImg: taurus1Img,
+  },
+  {
+    id: 3,
+    srcImg: CFR2Img,
+  },
+  {
+    id: 4,
+    srcImg: taurus2Img,
+  },
+];
+
 export const footerLinks = [
   'Privacy Policy',
   'Terms of Use',
   'Sales Policy',
   'Legal',
   'Site Map',
+];
+
+export const clientImg = [
+  {
+    id: 1,
+    srcImg: taurus1Img,
+  },
+  {
+    id: 2,
+    srcImg: perseusWhiteImg,
+  },
+  {
+    id: 3,
+    srcImg: perseusWhiteImg,
+  },
+  {
+    id: 4,
+    srcImg: perseusWhiteImg,
+  },
+  {
+    id: 5,
+    srcImg: perseusWhiteImg,
+  },
+  {
+    id: 6,
+    srcImg: perseusWhiteImg,
+  },
 ];

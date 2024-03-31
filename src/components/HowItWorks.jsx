@@ -92,9 +92,9 @@ const HowItWorks = () => {
           </div>
 
           <div className="flex-1 flex justify-center flex-col g_fadeIn">
-            <p className="hiw-text">New</p>
-            <p className="hiw-bigtext">Pro-class GPU</p>
-            <p className="hiw-text">with 6 cores</p>
+            <p className="hiw-text">Expertise in</p>
+            <p className="hiw-bigtext">Real Estate</p>
+            <p className="hiw-text">Industry</p>
           </div>
         </div>
       </div>
