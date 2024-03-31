@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 
+import { Navbar, Footer } from './components';
+
 import * as Sentry from '@sentry/react';
 
 Sentry.init({
@@ -26,6 +28,8 @@ Sentry.init({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navbar />
     <App />
+    <Footer />
   </React.StrictMode>
 );
