@@ -9,7 +9,33 @@ import {
   yellowImg,
 } from '../utils';
 
-export const navLists = ['Collabration', 'Production', 'Contact', 'About'];
+export const navLists = [
+  {
+    id: 1,
+    label: 'Home',
+    href: '/',
+  },
+  {
+    id: 2,
+    label: 'Collabration',
+    href: '/#collabration',
+  },
+  {
+    id: 3,
+    label: 'Production',
+    href: '#production',
+  },
+  {
+    id: 4,
+    label: 'Contact',
+    href: '/',
+  },
+  {
+    id: 5,
+    label: 'About',
+    href: '/',
+  },
+];
 
 export const hightlightsSlides = [
   {

@@ -54,7 +54,7 @@ const Hero = () => {
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
         <a href="#highlights" className="btn">
-          Collabration
+          Get In Touch
         </a>
         <p className="font-normal text-xl">
           Scaling your business from 0 to 100
