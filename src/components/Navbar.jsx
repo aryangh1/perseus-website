@@ -23,12 +23,6 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-
-        <div className="sm:hidden">
-          <div className="menu-toggle">
-            <div id="menu-toggle-btn"></div>
-          </div>
-        </div>
       </nav>
     </header>
   );
