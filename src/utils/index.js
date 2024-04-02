@@ -2,8 +2,6 @@ import hero from '/assets/images/hero.jpeg';
 
 export const heroImg = hero;
 
-import hmv from '/assets/videos/hero.mp4';
-import smallmv from '/assets/videos/smallHero.mp4';
 import highlightFirstmv from '/assets/videos/highlight-first.mp4';
 import highlightSectmv from '/assets/videos/hightlight-third.mp4';
 import highlightThirdmv from '/assets/videos/hightlight-sec.mp4';
@@ -12,6 +10,8 @@ import exploremv from '/assets/videos/explore.mp4';
 import framemv from '/assets/videos/frame.mp4';
 import kengo1V from '/assets/videos/kengo1-video.mp4';
 import andrewTaurusV from '/assets/videos/andrew-taurus.mp4';
+import perseusHero from '/assets/videos/perseus-hero.mp4';
+import perseusSmallHero from '/assets/videos/perseus-smallHero.mp4';
 
 import perseus from '/assets/images/perseus.svg';
 import perseusWhite from '/assets/images/perseus-white.png';
@@ -57,8 +57,6 @@ import study from '/assets/images/partnerships/Study.png';
 import taurus from '/assets/images/partnerships/Taurus.png';
 import visa from '/assets/images/partnerships/Visa.png';
 
-export const heroVideo = hmv;
-export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
 export const highlightThirdVideo = highlightThirdmv;
@@ -67,6 +65,8 @@ export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 export const kengo1Video = kengo1V;
 export const andrewTaurusVideo = andrewTaurusV;
+export const perseusHeroVideo = perseusHero;
+export const perseusSmallHeroVideo = perseusSmallHero;
 
 export const perseusImg = perseus;
 export const perseusWhiteImg = perseusWhite;

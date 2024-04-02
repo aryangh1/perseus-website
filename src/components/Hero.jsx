@@ -1,19 +1,19 @@
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-import { heroVideo, smallHeroVideo } from '../utils';
+import { perseusHeroVideo, perseusSmallHeroVideo } from '../utils';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
   const [videoSrc, setVideoSrc] = useState(
-    window.innerWidth < 760 ? smallHeroVideo : heroVideo
+    window.innerWidth < 760 ? perseusSmallHeroVideo : perseusHeroVideo
   );
 
   const handleVideoSrcSet = () => {
     if (window.innerWidth < 760) {
-      setVideoSrc(smallHeroVideo);
+      setVideoSrc(perseusSmallHeroVideo);
     } else {
-      setVideoSrc(heroVideo);
+      setVideoSrc(perseusHeroVideo);
     }
   };
 
@@ -34,11 +34,10 @@ const Hero = () => {
     <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
         <p id="hero" className="hero-title">
-          Creative Studio
+          Beyond Boundaries
         </p>
         <div className="md:w-10/12 w-9/12">
           <video
-            loop
             className="pointer-events-none"
             autoPlay
             muted
