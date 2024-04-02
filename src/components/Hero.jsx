@@ -60,7 +60,7 @@ const Hero = () => {
         >
           Get In Touch
         </a>
-        <p className="font-normal text-xl">
+        <p className="font-normal text-xl max-sm:text-center">
           Your Path to Online Excellence and Business Growth
         </p>
       </div>
