@@ -10,6 +10,8 @@ import highlightThirdmv from '/assets/videos/hightlight-sec.mp4';
 import highlightFourthmv from '/assets/videos/hightlight-fourth.mp4';
 import exploremv from '/assets/videos/explore.mp4';
 import framemv from '/assets/videos/frame.mp4';
+import kengo1V from '/assets/videos/kengo1-video.mp4';
+import andrewTaurusV from '/assets/videos/andrew-taurus.mp4';
 
 import perseus from '/assets/images/perseus.svg';
 import perseusWhite from '/assets/images/perseus-white.png';
@@ -63,6 +65,8 @@ export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
+export const kengo1Video = kengo1V;
+export const andrewTaurusVideo = andrewTaurusV;
 
 export const perseusImg = perseus;
 export const perseusWhiteImg = perseusWhite;

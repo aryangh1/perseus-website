@@ -36,15 +36,14 @@ const HowItWorks = () => {
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A17 Pro chip.
-            <br /> A monster win for gaming.
+            Brand Solutions
+            <br /> for All Sizes and Visions.
           </h2>
 
           <p className="hiw-subtitle">
-            It's here. The biggest redesign in the history of Apple GPUs.
+            Customized Marketing That Adapts to Every Brand's Scale and Scope.
           </p>
         </div>
-
         <div className="mt-10 md:mt-20 mb-14">
           <div className="relative h-full flex-center">
             <div className="overflow-hidden">
@@ -61,6 +60,7 @@ const HowItWorks = () => {
                 preload="none"
                 muted
                 autoPlay
+                loop
                 ref={videoRef}
               >
                 <source src={frameVideo} type="video/mp4" />
@@ -68,33 +68,33 @@ const HowItWorks = () => {
             </div>
           </div>
           <p className="text-gray font-semibold text-center mt-3">
-            Kengo Kuma: Alberni
+            Your Success, Our Success
           </p>
         </div>
 
         <div className="hiw-text-container">
           <div className="flex flex-1 justify-center flex-col">
             <p className="hiw-text g_fadeIn">
-              A17 Pro is an entirely new class of iPhone chip that delivers our{' '}
+              Connect With Us: Your Niche, Our Craft At Perseus Creative Studio,{' '}
               <span className="text-white">
-                best graphic performance by far
+                we embrace diversity in business sizes and niches, ensuring our
+                services are meticulously tailored to meet your unique needs.
               </span>
-              .
             </p>
 
             <p className="hiw-text g_fadeIn">
-              Mobile{' '}
+              Let's collaborate{' '}
               <span className="text-white">
-                games will look and feel so immersive
+                to bring your vision to life with{' '}
               </span>
-              , with incredibly detailed environments and characters.
+              unparalleled customization.
             </p>
           </div>
 
           <div className="flex-1 flex justify-center flex-col g_fadeIn">
-            <p className="hiw-text">Expertise in</p>
-            <p className="hiw-bigtext">Real Estate</p>
-            <p className="hiw-text">Industry</p>
+            <p className="hiw-text">Dominate the Digital World</p>
+            <p className="hiw-bigtext">Outcompete</p>
+            <p className="hiw-text">with Strategic Planning</p>
           </div>
         </div>
       </div>

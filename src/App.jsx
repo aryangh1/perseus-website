@@ -18,9 +18,9 @@ const App = () => {
       <main className="bg-black">
         <Hero />
         <Highlights />
+        <Services />
         <Features />
         <Gallery />
-        <Services />
         <Clients />
         <HowItWorks />
       </main>

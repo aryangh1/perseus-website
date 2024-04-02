@@ -27,6 +27,8 @@ import {
   studyImg,
   taurusImg,
   visaImg,
+  kengo1Video,
+  andrewTaurusVideo,
 } from '../utils';
 
 export const navLists = [
@@ -65,13 +67,13 @@ export const hightlightsSlides = [
       'Game‑changing chip.',
       'Groundbreaking performance.',
     ],
-    video: highlightFirstVideo,
+    video: kengo1Video,
     videoDuration: 4,
   },
   {
     id: 2,
     textLists: ['Titanium.', 'So strong. So light. So Pro.'],
-    video: highlightSecondVideo,
+    video: andrewTaurusVideo,
     videoDuration: 5,
   },
   {
@@ -128,37 +130,37 @@ export const servicesSection = [
   {
     id: 1,
     title: 'Branding',
-    desc: "We create unique brands that make your business stand out. It's not just about logos, but building a strong identity that truly represents you.",
+    desc: "Your business deserves a brand that's as unique and dynamic as your vision. We go beyond the logo to build a compelling identity that resonates and represents who you truly are.",
     icon: brandingImg,
   },
   {
     id: 2,
     title: 'Videography',
-    desc: "Our videos are more than just footage – they are stories told with quality and style. We focus on making each video a reflection of your brand's heart and soul.",
+    desc: 'Every frame we shoot tells a story, rich in quality and crafted with style. Our videography captures the pulse of your brand, creating an emotional connection that lasts.',
     icon: videographyImg,
   },
   {
     id: 3,
     title: 'Social Media Management',
-    desc: 'We handle your social media with care, making sure every post speaks to your audience and builds your online community',
+    desc: 'We curate your social media presence with precision, ensuring every interaction is meaningful and every post strengthens the bond with your community.',
     icon: socialMediaManagementImg,
   },
   {
     id: 4,
     title: 'Content Creation',
-    desc: "We create content that speaks to your customers. It's engaging, thoughtful, and always aligned with what your audience wants to see and hear.",
+    desc: "We produce content that does more than talk; it engages. Thoughtful, relevant, and tuned into your audience's desires, it's not just heard, it's listened to.",
     icon: contentCreationImg,
   },
   {
     id: 5,
     title: 'Web Design',
-    desc: 'Our websites are easy to use and beautiful to look at. We balance design and function to make sure your website is a hit with your customers.',
+    desc: 'Our websites blend aesthetics with usability, delivering an online experience that not only looks great but feels intuitive. Ensuring your digital doorstep is welcoming and effective.',
     icon: webDesignImg,
   },
   {
     id: 6,
     title: 'Photography',
-    desc: 'Our photography captures the essence of your brand in every shot. We focus on quality, ensuring each image tells a story and connects with your audience.',
+    desc: "Each photo we take aims to tell your brand's story, capturing the moments that matter. We focus on the finest details that speak volumes to your audience.",
     icon: photoImg,
   },
 ];
@@ -221,6 +223,26 @@ export const clientImg = [
   },
   {
     id: 8,
+    srcImg: visaImg,
+  },
+  {
+    id: 7,
+    srcImg: cartocciImg,
+  },
+  {
+    id: 8,
+    srcImg: samAmiralaeiImg,
+  },
+  {
+    id: 9,
+    srcImg: studyImg,
+  },
+  {
+    id: 10,
+    srcImg: taurusImg,
+  },
+  {
+    id: 11,
     srcImg: visaImg,
   },
 ];

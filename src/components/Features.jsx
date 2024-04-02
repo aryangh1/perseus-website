@@ -77,27 +77,28 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    At Perseus Studio{' '}
+                    Discover the art of digital distinction with {''}
                     <span className="text-white">
-                      we blend innovative strategies and creative storytelling
-                      to elevate your brand
+                      Perseus Creative Studio. {''}
                     </span>
-                    , from impactful online campaigns to visually stunning
-                    content.
+                    Here, strategic marketing and creative design unite to
+                    enhance your online presence. Partner with us for a journey
+                    of growth and standout brand recognition.
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Perseus Studio specializes in creating strong digital
-                    presences. we combine strategic thinking with creative flair{' '}
+                    Perseus Creative Studio melds creativity with strategy to
+                    transform your digital identity.{' '}
                     <span className="text-white">
-                      to develop unique brand identities.{' '}
+                      Our custom solutions are crafted to make your brand{' '}
                     </span>
+                    resonate and captivate. Step into a partnership that's set
+                    on forging your legacy of digital success.
                   </p>
                 </div>
               </div>
-
               <div className="feature-video-container mt-12 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
@@ -114,7 +115,6 @@ const Features = () => {
                   />
                 </div>
               </div>
-
               <div className="feature-video-container mt-4 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img

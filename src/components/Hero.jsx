@@ -38,6 +38,7 @@ const Hero = () => {
         </p>
         <div className="md:w-10/12 w-9/12">
           <video
+            loop
             className="pointer-events-none"
             autoPlay
             muted
@@ -61,7 +62,7 @@ const Hero = () => {
           Get In Touch
         </a>
         <p className="font-normal text-xl">
-          Scaling your business from 0 to 100
+          Your Path to Online Excellence and Business Growth
         </p>
       </div>
     </section>
