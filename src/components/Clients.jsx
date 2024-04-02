@@ -24,6 +24,18 @@ const Clients = () => {
             Trusted by the Bests.
           </h1>
         </div>
+
+        <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          {clientImg.map((client) => (
+            <img
+              key={client.id}
+              src={client.srcImg}
+              width={158}
+              height={48}
+              alt="partner's logo"
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

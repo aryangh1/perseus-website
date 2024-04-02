@@ -25,7 +25,6 @@ import blue from '/assets/images/blue.jpg';
 import white from '/assets/images/white.jpg';
 import black from '/assets/images/black.jpg';
 import study1 from '/assets/images/study1.jpg';
-import study2 from '/assets/images/study2.jpg';
 import taurus1 from '/assets/images/taurus1.jpeg';
 import taurus2 from '/assets/images/taurus2.jpeg';
 import genesis1 from '/assets/images/genesis1.jpg';
@@ -44,6 +43,17 @@ import branding from '/assets/images/branding.svg';
 import photo from '/assets/images/photo.svg';
 import webDesign from '/assets/images/webdesign.svg';
 import contentCreation from '/assets/images/contentcreation.svg';
+
+// partnerships
+import ABC from '/assets/images/partnerships/ABC.jpg';
+// import arshiaEsmaeili from '/assets/images/partnerships/Arshia-Esmaeili.PNG';
+import CFR from '/assets/images/partnerships/CFR.jpg';
+import genesisBoxing from '/assets/images/partnerships/genesis-boxing.png';
+import cartocci from '/assets/images/partnerships/cartocci.png';
+import samAmiralaei from '/assets/images/partnerships/Sam-Amiralaei.png';
+import study from '/assets/images/partnerships/Study.png';
+import taurus from '/assets/images/partnerships/Taurus.png';
+import visa from '/assets/images/partnerships/Visa.png';
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -70,7 +80,6 @@ export const blackImg = black;
 export const taurus1Img = taurus1;
 export const taurus2Img = taurus2;
 export const study1Img = study1;
-export const study2Img = study2;
 export const genesis1Img = genesis1;
 export const kengo1Img = kengo1;
 export const kengo2Img = kengo2;
@@ -88,3 +97,14 @@ export const contentCreationImg = contentCreation;
 
 export const chipImg = chip;
 export const frameImg = frame;
+
+// partnerships
+export const ABCImg = ABC;
+// export const arshiaEsmaeiliImg = arshiaEsmaeili;
+export const CFRImg = CFR;
+export const genesisBoxingImg = genesisBoxing;
+export const cartocciImg = cartocci;
+export const samAmiralaeiImg = samAmiralaei;
+export const studyImg = study;
+export const taurusImg = taurus;
+export const visaImg = visa;

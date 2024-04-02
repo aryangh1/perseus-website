@@ -19,6 +19,14 @@ import {
   kengo4Img,
   study1Img,
   CFR3Img,
+  ABCImg,
+  CFRImg,
+  genesisBoxingImg,
+  cartocciImg,
+  samAmiralaeiImg,
+  studyImg,
+  taurusImg,
+  visaImg,
 } from '../utils';
 
 export const navLists = [
@@ -35,7 +43,7 @@ export const navLists = [
   {
     id: 3,
     label: 'Production',
-    href: '#production',
+    href: '/#production',
   },
   {
     id: 4,
@@ -183,28 +191,36 @@ export const footerLinks = [
 ];
 
 export const clientImg = [
-  {
-    id: 1,
-    srcImg: taurus1Img,
-  },
-  {
-    id: 2,
-    srcImg: perseusWhiteImg,
-  },
-  {
-    id: 3,
-    srcImg: perseusWhiteImg,
-  },
+  // {
+  //   id: 1,
+  //   srcImg: ABCImg,
+  // },
+  // {
+  //   id: 2,
+  //   srcImg: CFRImg,
+  // },
+  // {
+  //   id: 3,
+  //   srcImg: genesisBoxingImg,
+  // },
   {
     id: 4,
-    srcImg: perseusWhiteImg,
+    srcImg: cartocciImg,
   },
   {
     id: 5,
-    srcImg: perseusWhiteImg,
+    srcImg: samAmiralaeiImg,
   },
   {
     id: 6,
-    srcImg: perseusWhiteImg,
+    srcImg: studyImg,
+  },
+  {
+    id: 7,
+    srcImg: taurusImg,
+  },
+  {
+    id: 8,
+    srcImg: visaImg,
   },
 ];

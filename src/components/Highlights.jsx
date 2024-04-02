@@ -1,7 +1,6 @@
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-// import { watchImg, rightImg } from '../utils';
 import { VideoCarousel } from '../components';
 
 const Highlights = () => {
@@ -20,17 +19,6 @@ const Highlights = () => {
           <h1 id="title" className="section-heading">
             Glimpse into our work
           </h1>
-
-          {/* <div className="flex flex-wrap items-end gap-5">
-            <p className="link">
-              Watch the film
-              <img src={watchImg} alt="watch" className="ml-2" />
-            </p>
-            <p className="link">
-              Watch the event
-              <img src={rightImg} alt="right" className="ml-2" />
-            </p>
-          </div> */}
         </div>
 
         <VideoCarousel />
