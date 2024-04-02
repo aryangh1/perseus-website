@@ -28,7 +28,7 @@ const HowItWorks = () => {
   }, []);
 
   return (
-    <section>
+    <section className="sm:px-10 px-5">
       <div className="screen-max-width">
         <div id="chip" className="flex-center w-full my-20">
           <img src={perseusWhiteImg} alt="logo" width={240} height={360} />
