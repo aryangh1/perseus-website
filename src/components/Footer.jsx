@@ -4,7 +4,7 @@ const Footer = () => {
   const updatedDate = new Date().getFullYear();
 
   return (
-    <footer className="py-5 sm:px-10 px-5">
+    <footer className="py-5 sm:px-10 px-5" id="contact">
       <div className="screen-max-width">
         <div>
           <p className="font-semibold text-gray text-xs">

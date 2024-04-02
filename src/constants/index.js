@@ -13,10 +13,12 @@ import {
   photoImg,
   webDesignImg,
   contentCreationImg,
-  taurus2Img,
   taurus1Img,
   CFR2Img,
   perseusWhiteImg,
+  kengo4Img,
+  study1Img,
+  CFR3Img,
 } from '../utils';
 
 export const navLists = [
@@ -38,7 +40,7 @@ export const navLists = [
   {
     id: 4,
     label: 'Contact',
-    href: '/',
+    href: '/#contact',
   },
   {
     id: 5,
@@ -156,19 +158,19 @@ export const servicesSection = [
 export const galleryImg = [
   {
     id: 1,
-    srcImg: taurus2Img,
+    srcImg: kengo4Img,
   },
   {
     id: 2,
-    srcImg: taurus1Img,
+    srcImg: CFR3Img,
   },
   {
     id: 3,
-    srcImg: CFR2Img,
+    srcImg: study1Img,
   },
   {
     id: 4,
-    srcImg: taurus2Img,
+    srcImg: CFR2Img,
   },
 ];
 

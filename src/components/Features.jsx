@@ -1,5 +1,4 @@
 import { useGSAP } from '@gsap/react';
-import { useRef } from 'react';
 import { animateWithGsap } from '../utils/animations';
 import {
   taurus1Img,
@@ -9,23 +8,9 @@ import {
   kengo2Img,
   CFR1Img,
 } from '../utils';
-import gsap from 'gsap';
 
 const Features = () => {
-  const videoRef = useRef();
-
   useGSAP(() => {
-    gsap.to('#exploreVideo', {
-      scrollTrigger: {
-        trigger: '#exploreVideo',
-        toggleActions: 'play pause reverse restart',
-        start: '-10% bottom',
-      },
-      onComplete: () => {
-        videoRef.current.play();
-      },
-    });
-
     animateWithGsap('#features_title', { y: 0, opacity: 1 });
     animateWithGsap(
       '.g_grow',
@@ -70,20 +55,6 @@ const Features = () => {
                 />
               </div>
             </div>
-
-            {/* <div className="relative h-[50vh] w-full flex items-center">
-              <video
-                playsInline
-                id="exploreVideo"
-                className="w-full h-full object-cover object-center"
-                preload="none"
-                muted
-                autoPlay
-                ref={videoRef}
-              >
-                <source src={exploreVideo} type="video/mp4" />
-              </video>
-            </div> */}
 
             <div className="flex flex-col w-full relative">
               <div className="feature-video-container">

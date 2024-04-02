@@ -1,8 +1,6 @@
 import { useGSAP } from '@gsap/react';
 import { animateWithGsap } from '../utils/animations';
 
-import { perseusWhiteImg } from '../utils';
-
 import { clientImg } from '../constants';
 
 const Clients = () => {
