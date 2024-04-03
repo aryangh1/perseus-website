@@ -6,7 +6,7 @@ import { animateWithGsap } from '../utils/animations';
 
 const HowItWorks = () => {
   const [videoSrc, setVideoSrc] = useState(
-    window.innerWidth > 1505 ? coqLargeVideo : coqVideo
+    window.innerWidth > 1505 && 102 ? coqLargeVideo : coqVideo
   );
 
   const videoRef = useRef();

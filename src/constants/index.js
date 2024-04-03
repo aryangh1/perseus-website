@@ -1,10 +1,6 @@
 import {
   blackImg,
   blueImg,
-  highlightFirstVideo,
-  highlightFourthVideo,
-  highlightSecondVideo,
-  highlightThirdVideo,
   whiteImg,
   yellowImg,
   videographyImg,
@@ -13,6 +9,7 @@ import {
   photoImg,
   webDesignImg,
   contentCreationImg,
+  advertisementsImg,
   taurus1Img,
   CFR2Img,
   perseusWhiteImg,
@@ -22,6 +19,7 @@ import {
   ABCImg,
   CFRImg,
   genesisBoxingImg,
+  genesisImg,
   cartocciImg,
   samAmiralaeiImg,
   studyImg,
@@ -29,7 +27,9 @@ import {
   visaImg,
   kengo1Video,
   andrewTaurusVideo,
-  advertisementsImg,
+  showroomVideo,
+  studyVideo,
+  genesisVideo,
 } from '../utils';
 
 export const navLists = [
@@ -64,34 +64,42 @@ export const hightlightsSlides = [
   {
     id: 1,
     textLists: [
-      'Enter A17 Pro.',
-      'Game‑changing chip.',
-      'Groundbreaking performance.',
+      'Kengo Kuma By Alberni.',
+      'Dynamic Real Estate Showcases.',
+      'Sweeping Estate Visual Narratives.',
     ],
     video: kengo1Video,
     videoDuration: 4,
   },
   {
     id: 2,
-    textLists: ['Titanium.', 'So strong. So light. So Pro.'],
+    textLists: [
+      'Taurus Fitness Club.',
+      'Inspirational Fitness Journey Advertisement.',
+    ],
     video: andrewTaurusVideo,
     videoDuration: 5,
   },
   {
     id: 3,
     textLists: [
-      'iPhone 15 Pro Max has the',
-      'longest optical zoom in',
-      'iPhone ever. Far out.',
+      'Canadian Flooring and Renovations.',
+      'Residential Elegance in Motion.',
     ],
-    video: highlightThirdVideo,
-    videoDuration: 2,
+    video: showroomVideo,
+    videoDuration: 10,
   },
   {
     id: 4,
-    textLists: ['All-new Action button.', 'What will yours do?.'],
-    video: highlightFourthVideo,
-    videoDuration: 3.63,
+    textLists: ['Study 2020', 'What will yours do?.'],
+    video: studyVideo,
+    videoDuration: 5,
+  },
+  {
+    id: 5,
+    textLists: ['Genesis Athletic Club', 'What will yours do?.'],
+    video: genesisVideo,
+    videoDuration: 5.11,
   },
 ];
 
@@ -227,23 +235,7 @@ export const clientImg = [
     srcImg: visaImg,
   },
   {
-    id: 7,
-    srcImg: cartocciImg,
-  },
-  {
-    id: 8,
-    srcImg: samAmiralaeiImg,
-  },
-  {
     id: 9,
-    srcImg: studyImg,
-  },
-  {
-    id: 10,
-    srcImg: taurusImg,
-  },
-  {
-    id: 11,
-    srcImg: visaImg,
+    srcImg: genesisImg,
   },
 ];

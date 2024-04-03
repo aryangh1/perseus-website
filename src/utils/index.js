@@ -2,16 +2,15 @@ import hero from '/assets/images/hero.jpeg';
 
 export const heroImg = hero;
 
-import highlightFirstmv from '/assets/videos/highlight-first.mp4';
-import highlightSectmv from '/assets/videos/hightlight-third.mp4';
-import highlightThirdmv from '/assets/videos/hightlight-sec.mp4';
-import highlightFourthmv from '/assets/videos/hightlight-fourth.mp4';
 import exploremv from '/assets/videos/explore.mp4';
 import framemv from '/assets/videos/frame.mp4';
 import coqv from '/assets/videos/coq.mp4';
 import coqvLarge from '/assets/videos/coq-large.mp4';
 import kengo1V from '/assets/videos/kengo1-video.mp4';
 import andrewTaurusV from '/assets/videos/andrew-taurus.mp4';
+import showrooomV from '/assets/videos/showroom.mp4';
+import studyV from '/assets/videos/study-video.mp4';
+import genesisV from '/assets/videos/genesis-walkaround.mp4';
 import perseusHero from '/assets/videos/perseus-hero.mp4';
 import perseusSmallHero from '/assets/videos/perseus-smallHero.mp4';
 
@@ -54,22 +53,22 @@ import ABC from '/assets/images/partnerships/ABC.jpg';
 // import arshiaEsmaeili from '/assets/images/partnerships/Arshia-Esmaeili.PNG';
 import CFR from '/assets/images/partnerships/CFR.jpg';
 import genesisBoxing from '/assets/images/partnerships/genesis-boxing.png';
+import genesisLogo from '/assets/images/partnerships/genesis.png';
 import cartocci from '/assets/images/partnerships/cartocci.png';
 import samAmiralaei from '/assets/images/partnerships/Sam-Amiralaei.png';
 import study from '/assets/images/partnerships/Study.png';
 import taurus from '/assets/images/partnerships/Taurus.png';
 import visa from '/assets/images/partnerships/Visa.png';
 
-export const highlightFirstVideo = highlightFirstmv;
-export const highlightSecondVideo = highlightSectmv;
-export const highlightThirdVideo = highlightThirdmv;
-export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 export const coqVideo = coqv;
 export const coqLargeVideo = coqvLarge;
 export const kengo1Video = kengo1V;
 export const andrewTaurusVideo = andrewTaurusV;
+export const showroomVideo = showrooomV;
+export const studyVideo = studyV;
+export const genesisVideo = genesisV;
 export const perseusHeroVideo = perseusHero;
 export const perseusSmallHeroVideo = perseusSmallHero;
 
@@ -113,6 +112,7 @@ export const ABCImg = ABC;
 // export const arshiaEsmaeiliImg = arshiaEsmaeili;
 export const CFRImg = CFR;
 export const genesisBoxingImg = genesisBoxing;
+export const genesisImg = genesisLogo;
 export const cartocciImg = cartocci;
 export const samAmiralaeiImg = samAmiralaei;
 export const studyImg = study;
