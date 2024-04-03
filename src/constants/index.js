@@ -29,6 +29,7 @@ import {
   visaImg,
   kengo1Video,
   andrewTaurusVideo,
+  advertisementsImg,
 } from '../utils';
 
 export const navLists = [
@@ -142,14 +143,14 @@ export const servicesSection = [
   {
     id: 3,
     title: 'Social Media Management',
-    desc: 'We curate your social media presence with precision, ensuring every interaction is meaningful and every post strengthens the bond with your community.',
+    desc: 'We meticulously craft your social media presence and content, ensuring every interaction is impactful and every post reinforces the connection with your audience. With strategic precision and creative flair, we build your online community and keep them engaged.',
     icon: socialMediaManagementImg,
   },
   {
     id: 4,
-    title: 'Content Creation',
-    desc: "We produce content that does more than talk; it engages. Thoughtful, relevant, and tuned into your audience's desires, it's not just heard, it's listened to.",
-    icon: contentCreationImg,
+    title: 'Advertising',
+    desc: 'Our programmatic advertising targets your ads to the people most likely to be interested, ensuring every dollar you spend is working hard for your brand. Get seen by your ideal audience effortlessly with our smart advertising solutions.',
+    icon: advertisementsImg,
   },
   {
     id: 5,

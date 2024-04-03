@@ -1,11 +1,31 @@
-import { useRef } from 'react';
-import { frameImg, frameVideo, perseusWhiteImg } from '../utils';
+import { useRef, useState, useEffect } from 'react';
+import { frameImg, perseusWhiteImg, coqVideo, coqLargeVideo } from '../utils';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { animateWithGsap } from '../utils/animations';
 
 const HowItWorks = () => {
+  const [videoSrc, setVideoSrc] = useState(
+    window.innerWidth > 1505 ? coqLargeVideo : coqVideo
+  );
+
   const videoRef = useRef();
+
+  const handleVideoSrcSet = () => {
+    if (window.innerWidth > 1505) {
+      setVideoSrc(coqLargeVideo);
+    } else {
+      setVideoSrc(coqVideo);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleVideoSrcSet);
+
+    return () => {
+      window.removeEventListener('reisze', handleVideoSrcSet);
+    };
+  }, []);
 
   useGSAP(() => {
     gsap.from('#chip', {
@@ -63,7 +83,7 @@ const HowItWorks = () => {
                 loop
                 ref={videoRef}
               >
-                <source src={frameVideo} type="video/mp4" />
+                <source src={videoSrc} type="video/mp4" />
               </video>
             </div>
           </div>

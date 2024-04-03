@@ -8,6 +8,8 @@ import highlightThirdmv from '/assets/videos/hightlight-sec.mp4';
 import highlightFourthmv from '/assets/videos/hightlight-fourth.mp4';
 import exploremv from '/assets/videos/explore.mp4';
 import framemv from '/assets/videos/frame.mp4';
+import coqv from '/assets/videos/coq.mp4';
+import coqvLarge from '/assets/videos/coq-large.mp4';
 import kengo1V from '/assets/videos/kengo1-video.mp4';
 import andrewTaurusV from '/assets/videos/andrew-taurus.mp4';
 import perseusHero from '/assets/videos/perseus-hero.mp4';
@@ -45,6 +47,7 @@ import branding from '/assets/images/branding.svg';
 import photo from '/assets/images/photo.svg';
 import webDesign from '/assets/images/webdesign.svg';
 import contentCreation from '/assets/images/contentcreation.svg';
+import ads from '/assets/images/advertisements.svg';
 
 // partnerships
 import ABC from '/assets/images/partnerships/ABC.jpg';
@@ -63,6 +66,8 @@ export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
+export const coqVideo = coqv;
+export const coqLargeVideo = coqvLarge;
 export const kengo1Video = kengo1V;
 export const andrewTaurusVideo = andrewTaurusV;
 export const perseusHeroVideo = perseusHero;
@@ -98,6 +103,7 @@ export const brandingImg = branding;
 export const photoImg = photo;
 export const webDesignImg = webDesign;
 export const contentCreationImg = contentCreation;
+export const advertisementsImg = ads;
 
 export const chipImg = chip;
 export const frameImg = frame;
