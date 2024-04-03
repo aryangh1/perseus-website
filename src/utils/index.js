@@ -2,7 +2,6 @@ import hero from '/assets/images/hero.jpeg';
 
 export const heroImg = hero;
 
-import exploremv from '/assets/videos/explore.mp4';
 import framemv from '/assets/videos/frame.mp4';
 import coqv from '/assets/videos/coq.mp4';
 import coqvLarge from '/assets/videos/coq-large.mp4';
@@ -38,14 +37,12 @@ import kengo4 from '/assets/images/kengo4.jpg';
 import CFR1 from '/assets/images/CFR1.jpg';
 import CFR2 from '/assets/images/CFR2.jpg';
 import CFR3 from '/assets/images/CFR3.jpg';
-import chip from '/assets/images/chip.jpeg';
 import frame from '/assets/images/frame.png';
 import videography from '/assets/images/videography.svg';
 import socialMediaManagement from '/assets/images/socialmediamanagement.svg';
 import branding from '/assets/images/branding.svg';
 import photo from '/assets/images/photo.svg';
 import webDesign from '/assets/images/webdesign.svg';
-import contentCreation from '/assets/images/contentcreation.svg';
 import ads from '/assets/images/advertisements.svg';
 
 // partnerships
@@ -60,7 +57,6 @@ import study from '/assets/images/partnerships/Study.png';
 import taurus from '/assets/images/partnerships/Taurus.png';
 import visa from '/assets/images/partnerships/Visa.png';
 
-export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 export const coqVideo = coqv;
 export const coqLargeVideo = coqvLarge;
@@ -101,10 +97,8 @@ export const socialMediaManagementImg = socialMediaManagement;
 export const brandingImg = branding;
 export const photoImg = photo;
 export const webDesignImg = webDesign;
-export const contentCreationImg = contentCreation;
 export const advertisementsImg = ads;
 
-export const chipImg = chip;
 export const frameImg = frame;
 
 // partnerships
