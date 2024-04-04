@@ -27,6 +27,7 @@ import {
   showroomVideo,
   studyVideo,
   genesisVideo,
+  contentCreationImg,
 } from '../utils';
 
 export const navLists = [
@@ -37,34 +38,30 @@ export const navLists = [
   },
   {
     id: 2,
-    label: 'Collabration',
-    href: '/#collabration',
+    label: 'Services',
+    href: '/#services',
   },
   {
     id: 3,
     label: 'Production',
-    href: '/#production',
+    href: '/',
   },
   {
     id: 4,
     label: 'Contact',
-    href: '/#contact',
+    href: '/contact',
   },
   {
     id: 5,
     label: 'About',
-    href: '/',
+    href: '/about',
   },
 ];
 
 export const hightlightsSlides = [
   {
     id: 1,
-    textLists: [
-      'Kengo Kuma By Alberni.',
-      'Dynamic Real Estate Showcases.',
-      'Sweeping Estate Visual Narratives.',
-    ],
+    textLists: ['Kengo Kuma By Alberni.', 'Dynamic Real Estate Showcases.'],
     video: kengo1Video,
     videoDuration: 4,
   },
@@ -88,13 +85,16 @@ export const hightlightsSlides = [
   },
   {
     id: 4,
-    textLists: ['Study 2020', 'What will yours do?.'],
+    textLists: [
+      'Study 2020.',
+      'Cinematic Journey Through Seminar Videography.',
+    ],
     video: studyVideo,
     videoDuration: 5,
   },
   {
     id: 5,
-    textLists: ['Genesis Athletic Club', 'What will yours do?.'],
+    textLists: ['Genesis Athletic Club.', 'Capturing Moments That Inspire.'],
     video: genesisVideo,
     videoDuration: 5.11,
   },
@@ -141,15 +141,15 @@ export const servicesSection = [
   },
   {
     id: 2,
-    title: 'Videography',
-    desc: 'Every frame we shoot tells a story, rich in quality and crafted with style. Our videography captures the pulse of your brand, creating an emotional connection that lasts.',
-    icon: videographyImg,
+    title: 'Web Design',
+    desc: 'Our websites blend aesthetics with usability, delivering an online experience that not only looks great but feels intuitive. Ensuring your digital doorstep is welcoming and effective.',
+    icon: webDesignImg,
   },
   {
     id: 3,
-    title: 'Social Media Management',
-    desc: 'We meticulously craft your social media presence and content, ensuring every interaction is impactful and every post reinforces the connection with your audience. With strategic precision and creative flair, we build your online community and keep them engaged.',
-    icon: socialMediaManagementImg,
+    title: 'Content Creation',
+    desc: 'We spin words and ideas into gold. Our content creation and planning isn’t just about filling pages; it’s about crafting messages that hit home and strategies that pave the way to your goals.',
+    icon: contentCreationImg,
   },
   {
     id: 4,
@@ -159,15 +159,15 @@ export const servicesSection = [
   },
   {
     id: 5,
-    title: 'Web Design',
-    desc: 'Our websites blend aesthetics with usability, delivering an online experience that not only looks great but feels intuitive. Ensuring your digital doorstep is welcoming and effective.',
-    icon: webDesignImg,
+    title: 'Videography & Photography',
+    desc: 'We pair high-res photos with cinematic video to showcase your brand. Every image and clip we create tells your story with elegance and energy. Experience a dual-force of visuals that captivate and communicate with power.',
+    icon: videographyImg,
   },
   {
     id: 6,
-    title: 'Photography',
-    desc: "Each photo we take aims to tell your brand's story, capturing the moments that matter. We focus on the finest details that speak volumes to your audience.",
-    icon: photoImg,
+    title: 'Social Media Management',
+    desc: "We carefully shape your social media with content that resonates and engages. Every post is a step towards a stronger community and a deeper connection with your audience. Let's bring strategic creativity to your online presence.",
+    icon: socialMediaManagementImg,
   },
 ];
 

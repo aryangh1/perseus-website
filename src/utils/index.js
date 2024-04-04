@@ -44,6 +44,7 @@ import branding from '/assets/images/branding.svg';
 import photo from '/assets/images/photo.svg';
 import webDesign from '/assets/images/webdesign.svg';
 import ads from '/assets/images/advertisements.svg';
+import contentCreation from '/assets/images/contentcreation.svg';
 
 // partnerships
 import ABC from '/assets/images/partnerships/ABC.jpg';
@@ -98,6 +99,7 @@ export const brandingImg = branding;
 export const photoImg = photo;
 export const webDesignImg = webDesign;
 export const advertisementsImg = ads;
+export const contentCreationImg = contentCreation;
 
 export const frameImg = frame;
 

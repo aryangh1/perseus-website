@@ -1,29 +1,21 @@
-import './App.css';
-
-import {
-  Hero,
-  Highlights,
-  Features,
-  Services,
-  Gallery,
-  Clients,
-  HowItWorks,
-} from './components';
-
 import * as Sentry from '@sentry/react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import './App.css';
+import { HomePage, Contact, About, NotFound } from './pages';
 
 const App = () => {
   return (
     <>
-      <main className="bg-black">
-        <Hero />
-        <Highlights />
-        <Services />
-        <Features />
-        <Gallery />
-        <Clients />
-        <HowItWorks />
-      </main>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };

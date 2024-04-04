@@ -5,8 +5,8 @@ import { servicesSection } from '../constants';
 
 const Services = () => {
   useGSAP(() => {
-    gsap.to('#services', {
-      scrollTrigger: '#services',
+    gsap.to('#services1', {
+      scrollTrigger: '#services1',
       opacity: 1,
       duration: 2,
     });
@@ -15,14 +15,14 @@ const Services = () => {
   return (
     <section className="bg-zinc">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div className="mt-32 mb-24 pl-24 max-sm:pl-0">
+        <div className="mt-32 mb-24 pl-24 max-sm:pl-0" id="services">
           <h2 className="text-5xl lg:text-7xl font-semibold">Designed</h2>
           <h2 className="text-5xl lg:text-7xl font-semibold">
             for business teams like yours.
           </h2>
         </div>
         <div
-          id="services"
+          id="services1"
           className="opacity-0 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
         >
           {servicesSection.map((service) => (
