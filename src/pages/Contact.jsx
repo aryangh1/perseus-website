@@ -37,7 +37,11 @@ const Contact = () => {
             Reach out now and take the first step towards achieving your goals.
           </p>
         </div>
-        <form action="" method="POST" className="mx-auto mt-12 max-w-xl">
+        <form
+          action="https://perseustudio.com"
+          method="POST"
+          className="mx-auto mt-12 max-w-xl"
+        >
           <div className="grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <label
@@ -218,12 +222,14 @@ const Contact = () => {
             </Switch.Group> */}
           </div>
           <div className="mt-8 mb-12">
-            <button
-              type="submit"
-              className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all"
-            >
-              Submit
-            </button>
+            <a href="https://perseustudio.com">
+              <button
+                type="submit"
+                className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all"
+              >
+                Submit
+              </button>
+            </a>
           </div>
         </form>
       </div>
