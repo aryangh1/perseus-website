@@ -85,16 +85,13 @@ export const hightlightsSlides = [
   },
   {
     id: 4,
-    textLists: [
-      'Study 2020.',
-      'Cinematic Journey Through Seminar Videography.',
-    ],
+    textLists: ['Study 2020.', 'Cinematic Seminar Videography'],
     video: studyVideo,
     videoDuration: 5,
   },
   {
     id: 5,
-    textLists: ['Genesis Athletic Club.', 'Capturing Moments That Inspire.'],
+    textLists: ['Genesis Athletic Club.', 'Gym Experience Showcase.'],
     video: genesisVideo,
     videoDuration: 5.11,
   },
