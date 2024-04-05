@@ -44,7 +44,7 @@ export const navLists = [
   {
     id: 3,
     label: 'Production',
-    href: '/',
+    href: '/#production',
   },
   {
     id: 4,
