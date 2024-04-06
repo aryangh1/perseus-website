@@ -7,6 +7,7 @@ import Services from './Services';
 import Gallery from './Gallery';
 import Clients from './Clients';
 import HowItWorks from './HowItWorks';
+import AboutSection from './AboutSection';
 import Footer from './Footer';
 
 export {
@@ -19,5 +20,6 @@ export {
   Gallery,
   Clients,
   HowItWorks,
+  AboutSection,
   Footer,
 };

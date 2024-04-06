@@ -233,3 +233,24 @@ export const clientImg = [
     srcImg: genesisImg,
   },
 ];
+
+export const aboutSection = [
+  {
+    id: 1,
+    label: 'Perseus Media Stands',
+    desc: "At the forefront of digital transformation. Our essence is not just about offering marketing solutions it's about igniting change that propels your brand to unparalleled heights. Our diverse suite of services, from mesmerizing video and photo production, engaging social media content, to cutting-edge website design and distinctive branding, is crafted to set your narrative apart.",
+    footer: 'Perseus Media - Igniting Brand Transformation',
+  },
+  {
+    id: 2,
+    label: 'We pride ourselves on',
+    desc: 'leveraging only the best, state-of-the-art equipment to deliver unmatched quality. This dedication to excellence is woven into the fabric of every project we undertake, ensuring that we capture the very soul of your brand with precision and creativity.',
+    footer: 'Unmatched Quality - Delivering the Soul of Your Brand',
+  },
+  {
+    id: 3,
+    label: 'Our expertise spans',
+    desc: "a wide array of sectors, tailoring our strategies to meet the unique demands of each industry we serve. At the heart of Perseus Media is a simple yet powerful commitment: to transform your strategy and elevate your brand. Join us, and let's embark on a journey of transformation together.",
+    footer: 'Industry Expertise - Tailored Strategies for Your Success',
+  },
+];
