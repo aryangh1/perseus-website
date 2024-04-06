@@ -172,7 +172,7 @@ const VideoCarousel = () => {
                   onEnded={() =>
                     i !== 4
                       ? handleProcess('video-end', i)
-                      : handleProcess('video-last')
+                      : handleProcess('video-reset')
                   }
                   onPlay={() =>
                     setVideo((pre) => ({ ...pre, isPlaying: true }))
