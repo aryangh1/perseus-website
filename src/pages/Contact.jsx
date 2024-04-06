@@ -108,7 +108,7 @@ const Contact = () => {
               </label>
               <div className="mt-2.5">
                 <input
-                  placeholder="Perseustudio"
+                  placeholder="@Perseustudio"
                   type="text"
                   name="instagram"
                   id="instagram"
