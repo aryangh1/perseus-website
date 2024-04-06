@@ -7,6 +7,7 @@ import {
   kengo1Img,
   kengo2Img,
   CFR1Img,
+  droneRealEstateImg,
 } from '../utils';
 
 const Features = () => {
@@ -47,7 +48,7 @@ const Features = () => {
               <div className="overflow-hidden flex-1 h-[50vh]">
                 <img
                   src={genesis1Img}
-                  alt="titanium"
+                  alt="gym photo"
                   className="feature-video g_grow"
                 />
               </div>
@@ -58,14 +59,14 @@ const Features = () => {
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={taurus1Img}
-                    alt="titanium"
+                    alt="gym photo"
                     className="feature-video g_grow"
                   />
                 </div>
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={taurus2Img}
-                    alt="titanium 2"
+                    alt="gym photo"
                     className="feature-video g_grow"
                   />
                 </div>
@@ -100,14 +101,14 @@ const Features = () => {
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={kengo1Img}
-                    alt="titanium"
+                    alt="real estate image"
                     className="feature-video g_grow"
                   />
                 </div>
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={kengo2Img}
-                    alt="titanium 2"
+                    alt="real estate image"
                     className="feature-video g_grow"
                   />
                 </div>
@@ -115,8 +116,8 @@ const Features = () => {
               <div className="feature-video-container mt-4 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
-                    src={CFR1Img}
-                    alt="titanium"
+                    src={droneRealEstateImg}
+                    alt="drone image"
                     className="feature-video g_grow"
                   />
                 </div>

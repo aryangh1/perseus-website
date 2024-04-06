@@ -34,6 +34,8 @@ import kengo1 from '/assets/images/kengo1.jpg';
 import kengo2 from '/assets/images/kengo2.jpg';
 import kengo3 from '/assets/images/kengo3.jpg';
 import kengo4 from '/assets/images/kengo4.jpg';
+import droneRealEstate from '/assets/images/drone-realEstate.jpg';
+
 import CFR1 from '/assets/images/CFR1.jpg';
 import CFR2 from '/assets/images/CFR2.jpg';
 import CFR3 from '/assets/images/CFR3.jpg';
@@ -90,6 +92,7 @@ export const kengo1Img = kengo1;
 export const kengo2Img = kengo2;
 export const kengo3Img = kengo3;
 export const kengo4Img = kengo4;
+export const droneRealEstateImg = droneRealEstate;
 export const CFR1Img = CFR1;
 export const CFR2Img = CFR2;
 export const CFR3Img = CFR3;

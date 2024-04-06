@@ -15,7 +15,6 @@ import {
   CFR3Img,
   ABCImg,
   CFRImg,
-  genesisBoxingImg,
   genesisImg,
   cartocciImg,
   samAmiralaeiImg,
