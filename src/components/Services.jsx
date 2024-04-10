@@ -26,7 +26,7 @@ const Services = () => {
           className="opacity-0 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
         >
           {servicesSection.map((service) => (
-            <div key={service.id}>
+            <div key={service.id} className="max-sm:px-6">
               <div className="flex justify-start items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
                 <img
                   className="w-5 h-5 lg:w-6 lg:h-6"
