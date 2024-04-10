@@ -6,7 +6,6 @@ import {
   genesis1Img,
   kengo1Img,
   kengo2Img,
-  CFR1Img,
   droneRealEstateImg,
 } from '../utils';
 
