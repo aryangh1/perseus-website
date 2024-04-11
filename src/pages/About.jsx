@@ -13,8 +13,9 @@ const About = () => {
             We transform brand in the digital world.
           </h2>
           <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 hiw-text">
-            Here at Perseus we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            We are your partner in every step of your brand's evolution,
+            dedicated to turning your vision into reality and ensuring a
+            successful journey.
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="/contact" className="btn px-12">
