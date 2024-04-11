@@ -40,8 +40,12 @@ const EmailForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="mx-auto mt-12 max-w-xl">
-      <div className="grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-2">
+    <form
+      ref={form}
+      onSubmit={sendEmail}
+      className="mx-auto mt-12 max-w-xl px-4"
+    >
+      <div className="grid grid-cols-2 gap-x-4 gap-y-6">
         <div>
           <label
             htmlFor="user_name"
@@ -154,6 +158,21 @@ const EmailForm = () => {
                 name="user_country"
                 className="h-full rounded-md border-0 bg-transparent bg-none py-0 px-4 text-sm text-gray font-bold"
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+
                 <option>CA</option>
                 <option>US</option>
                 <option>EU</option>
@@ -161,7 +180,7 @@ const EmailForm = () => {
             </div>
             <input
               placeholder="+1 (778) 887-8363"
-              type="tel"
+              type="number"
               name="user_phoneNumber"
               id="user_phoneNumber"
               autoComplete="tel"
@@ -189,10 +208,13 @@ const EmailForm = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 mb-12 btn block w-full text-center cursor-pointer">
-        <button type="submit">Submit</button>
-        <Toaster />
-      </div>
+      <button
+        type="submit"
+        className="mt-8 mb-12 btn block w-full text-center cursor-pointer"
+      >
+        Submit
+      </button>
+      <Toaster />
     </form>
   );
 };
