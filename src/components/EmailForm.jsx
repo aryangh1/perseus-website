@@ -1,22 +1,24 @@
 import { useRef } from 'react';
 
-import emailjs, { sendForm } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
 // import { ChevronDownIcon } from '@heroicons/react/20/solid';
 
-const success = () =>
+const successToast = () => {
   toast.success('Success! Your email has been delivered.', {
     position: 'top-right',
   });
+};
 
-const failed = () =>
+const errorToast = () => {
   toast.error(
     'Uh oh! There was a problem sending your email. Please try again.',
     {
       position: 'top-right',
     }
   );
+};
 
 const EmailForm = () => {
   const form = useRef();
@@ -30,10 +32,11 @@ const EmailForm = () => {
       })
       .then(
         () => {
-          success();
+          successToast();
+          form.current.reset();
         },
         () => {
-          failed();
+          errorToast();
         }
       );
   };
@@ -153,8 +156,8 @@ const EmailForm = () => {
                 name="user_country"
                 className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-4 hiw-text text-sm"
               >
-                <option>US</option>
                 <option>CA</option>
+                <option>US</option>
                 <option>EU</option>
               </select>
               {/* <ChevronDownIcon
@@ -193,9 +196,7 @@ const EmailForm = () => {
         </div>
       </div>
       <div className="mt-8 mb-12 btn block w-full text-center cursor-pointer">
-        <button type="submit" onClick={}>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
         <Toaster />
       </div>
     </form>
