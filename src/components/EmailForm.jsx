@@ -3,8 +3,6 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
-// import { ChevronDownIcon } from '@heroicons/react/20/solid';
-
 const successToast = () => {
   toast.success('Success! Your email has been delivered.', {
     position: 'top-right',
@@ -160,10 +158,6 @@ const EmailForm = () => {
                 <option>US</option>
                 <option>EU</option>
               </select>
-              {/* <ChevronDownIcon
-                    className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                    aria-hidden="true"
-                  /> */}
             </div>
             <input
               placeholder="+1 (778) 887-8363"
