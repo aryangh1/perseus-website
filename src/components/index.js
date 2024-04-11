@@ -8,6 +8,7 @@ import Gallery from './Gallery';
 import Clients from './Clients';
 import HowItWorks from './HowItWorks';
 import AboutSection from './AboutSection';
+import EmailForm from './EmailForm';
 import Footer from './Footer';
 
 export {
@@ -21,5 +22,6 @@ export {
   Clients,
   HowItWorks,
   AboutSection,
+  EmailForm,
   Footer,
 };
