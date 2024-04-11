@@ -1,8 +1,3 @@
-import hero from '/assets/images/hero.jpeg';
-
-export const heroImg = hero;
-
-import framemv from '/assets/videos/frame.mp4';
 import coqv from '/assets/videos/coq.mp4';
 import coqvLarge from '/assets/videos/coq-large.mp4';
 import kengo1V from '/assets/videos/kengo1-video.mp4';
@@ -15,17 +10,12 @@ import perseusSmallHero from '/assets/videos/perseus-smallHero.mp4';
 
 import perseus from '/assets/images/perseus.svg';
 import perseusWhite from '/assets/images/perseus-white.png';
-import apple from '/assets/images/apple.svg';
 import watch from '/assets/images/watch.svg';
 import right from '/assets/images/right.svg';
 import replay from '/assets/images/replay.svg';
 import play from '/assets/images/play.svg';
 import pause from '/assets/images/pause.svg';
 
-import yellow from '/assets/images/yellow.jpg';
-import blue from '/assets/images/blue.jpg';
-import white from '/assets/images/white.jpg';
-import black from '/assets/images/black.jpg';
 import study1 from '/assets/images/study1.jpg';
 import taurus1 from '/assets/images/taurus1.jpeg';
 import taurus2 from '/assets/images/taurus2.jpeg';
@@ -60,7 +50,6 @@ import study from '/assets/images/partnerships/Study.png';
 import taurus from '/assets/images/partnerships/Taurus.png';
 import visa from '/assets/images/partnerships/Visa.png';
 
-export const frameVideo = framemv;
 export const coqVideo = coqv;
 export const coqLargeVideo = coqvLarge;
 export const kengo1Video = kengo1V;
@@ -73,17 +62,12 @@ export const perseusSmallHeroVideo = perseusSmallHero;
 
 export const perseusImg = perseus;
 export const perseusWhiteImg = perseusWhite;
-export const appleImg = apple;
 export const watchImg = watch;
 export const rightImg = right;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
 
-export const yellowImg = yellow;
-export const blueImg = blue;
-export const whiteImg = white;
-export const blackImg = black;
 export const taurus1Img = taurus1;
 export const taurus2Img = taurus2;
 export const study1Img = study1;

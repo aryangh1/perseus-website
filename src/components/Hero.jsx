@@ -53,11 +53,7 @@ const Hero = () => {
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
-        <a
-          href="https://www.instagram.com/perseustudio/"
-          className="btn"
-          target="_blank"
-        >
+        <a href="/contact" className="btn">
           Get In Touch
         </a>
         <p className="font-normal text-xl max-sm:text-center">

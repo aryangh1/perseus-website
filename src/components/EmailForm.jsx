@@ -152,7 +152,7 @@ const EmailForm = () => {
               <select
                 id="user_country"
                 name="user_country"
-                className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-4 hiw-text text-sm"
+                className="h-full rounded-md border-0 bg-transparent bg-none py-0 px-4 text-sm text-gray font-bold"
               >
                 <option>CA</option>
                 <option>US</option>
