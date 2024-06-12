@@ -162,43 +162,44 @@ export const footerLinks = [
 export const clientImg = [
   {
     id: 1,
-    srcImg: naniFcLogo,
+    srcImg: fitbodegaLogo,
   },
+
   {
     id: 2,
     srcImg: visaImg,
   },
   {
     id: 3,
-    srcImg: vmcLogo,
-  },
-  {
-    id: 4,
     srcImg: cartocciImg,
   },
   {
-    id: 5,
-    srcImg: fitbodegaLogo,
-  },
-  {
-    id: 6,
+    id: 4,
     srcImg: studyImg,
   },
   {
-    id: 7,
+    id: 5,
+    srcImg: naniFcLogo,
+  },
+  {
+    id: 6,
     srcImg: taurusImg,
   },
   {
-    id: 8,
+    id: 7,
     srcImg: tstLogo,
   },
   // {
-  //   id: 9,
+  //   id: 8,
   //   srcImg: streetBallLogo,
   // },
   {
-    id: 10,
+    id: 9,
     srcImg: genesisImg,
+  },
+  {
+    id: 10,
+    srcImg: vmcLogo,
   },
 ];
 
