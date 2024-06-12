@@ -8,7 +8,7 @@ const Gallery = () => {
           <img
             className="h-auto max-w-full rounded-lg hover:scale-125 duration-1000"
             src={clientImg.srcImg}
-            alt="photo"
+            alt="gallery photos"
           />
         </div>
       ))}

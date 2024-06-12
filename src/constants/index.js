@@ -8,9 +8,12 @@ import {
   kengo4Img,
   study1Img,
   CFR3Img,
+  naniFcLogo,
+  fitbodegaLogo,
+  tstLogo,
+  vmcLogo,
   genesisImg,
   cartocciImg,
-  samAmiralaeiImg,
   studyImg,
   taurusImg,
   visaImg,
@@ -20,6 +23,7 @@ import {
   studyVideo,
   genesisVideo,
   contentCreationImg,
+  streetBallLogo,
 } from '../utils';
 
 export const navLists = [
@@ -156,25 +160,25 @@ export const footerLinks = [
 ];
 
 export const clientImg = [
-  // {
-  //   id: 1,
-  //   srcImg: ABCImg,
-  // },
-  // {
-  //   id: 2,
-  //   srcImg: CFRImg,
-  // },
-  // {
-  //   id: 3,
-  //   srcImg: genesisBoxingImg,
-  // },
+  {
+    id: 1,
+    srcImg: naniFcLogo,
+  },
+  {
+    id: 2,
+    srcImg: visaImg,
+  },
+  {
+    id: 3,
+    srcImg: vmcLogo,
+  },
   {
     id: 4,
     srcImg: cartocciImg,
   },
   {
     id: 5,
-    srcImg: samAmiralaeiImg,
+    srcImg: fitbodegaLogo,
   },
   {
     id: 6,
@@ -186,10 +190,14 @@ export const clientImg = [
   },
   {
     id: 8,
-    srcImg: visaImg,
+    srcImg: tstLogo,
   },
+  // {
+  //   id: 9,
+  //   srcImg: streetBallLogo,
+  // },
   {
-    id: 9,
+    id: 10,
     srcImg: genesisImg,
   },
 ];

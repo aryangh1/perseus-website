@@ -39,16 +39,16 @@ import ads from '/assets/images/advertisements.svg';
 import contentCreation from '/assets/images/contentcreation.svg';
 
 // partnerships
-import ABC from '/assets/images/partnerships/ABC.jpg';
-// import arshiaEsmaeili from '/assets/images/partnerships/Arshia-Esmaeili.PNG';
-import CFR from '/assets/images/partnerships/CFR.jpg';
-import genesisBoxing from '/assets/images/partnerships/genesis-boxing.png';
+import naniFc from '/assets/images/partnerships/nanifc.jpg';
+import fitbodega from '/assets/images/partnerships/fitbodega.png';
+import tst from '/assets/images/partnerships/tst.jpg';
+import vmc from '/assets/images/partnerships/vmc.jpg';
 import genesisLogo from '/assets/images/partnerships/genesis.png';
 import cartocci from '/assets/images/partnerships/cartocci.png';
-import samAmiralaei from '/assets/images/partnerships/Sam-Amiralaei.png';
 import study from '/assets/images/partnerships/Study.png';
 import taurus from '/assets/images/partnerships/Taurus.png';
 import visa from '/assets/images/partnerships/Visa.png';
+import streetBall from '/assets/images/partnerships/streetball.jpg';
 
 export const coqVideo = coqv;
 export const coqLargeVideo = coqvLarge;
@@ -91,13 +91,13 @@ export const contentCreationImg = contentCreation;
 export const frameImg = frame;
 
 // partnerships
-export const ABCImg = ABC;
-// export const arshiaEsmaeiliImg = arshiaEsmaeili;
-export const CFRImg = CFR;
-export const genesisBoxingImg = genesisBoxing;
+export const naniFcLogo = naniFc;
+export const fitbodegaLogo = fitbodega;
+export const tstLogo = tst;
+export const vmcLogo = vmc;
 export const genesisImg = genesisLogo;
 export const cartocciImg = cartocci;
-export const samAmiralaeiImg = samAmiralaei;
 export const studyImg = study;
 export const taurusImg = taurus;
 export const visaImg = visa;
+export const streetBallLogo = streetBall;
