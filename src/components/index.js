@@ -9,6 +9,7 @@ import Clients from './Clients';
 import HowItWorks from './HowItWorks';
 import AboutSection from './AboutSection';
 import EmailForm from './EmailForm';
+import InstaFeed from './InstaFeed';
 import Footer from './Footer';
 
 export {
@@ -23,5 +24,6 @@ export {
   HowItWorks,
   AboutSection,
   EmailForm,
+  InstaFeed,
   Footer,
 };
