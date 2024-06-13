@@ -6,7 +6,7 @@ const Gallery = () => {
       {galleryImg.map((clientImg) => (
         <div key={clientImg.id} className="overflow-hidden">
           <img
-            className="h-auto max-w-full rounded-lg hover:scale-125 duration-1000"
+            className="h-auto max-w-full rounded-lg hover:scale-110 duration-1000"
             src={clientImg.srcImg}
             alt="gallery photos"
           />
