@@ -25,14 +25,14 @@ const Clients = () => {
           </h1>
         </div>
 
-        <div className="flex flex-wrap items-center justify-around gap-6">
+        <div className="flex flex-wrap items-center justify-around gap-6 overflow-hidden py-4 px-3 max-sm:px-12">
           {clientImg.map((client) => (
             <img
-              className="rounded-full"
+              className="rounded-full duration-1000 hover:scale-110 saturate-150 max-sm:w-16"
               key={client.id}
               src={client.srcImg}
-              alt="partner's logo"
-              width={100}
+              alt="partner's logos"
+              width={90}
               height={48}
             />
           ))}
