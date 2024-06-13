@@ -165,7 +165,7 @@ const VideoCarousel = () => {
                 <video
                   id="video"
                   playsInline={true}
-                  className={`pointer-events-none`}
+                  className={`pointer-events-none object-fill`}
                   preload="auto"
                   muted
                   ref={(el) => (videoRef.current[i] = el)}

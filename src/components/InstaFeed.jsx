@@ -4,8 +4,9 @@ const feed = new Instafeed({
   accessToken: 'your-token',
 });
 feed.run();
+
 const InstaFeed = () => {
-  return <div>InstaFeed</div>;
+  return <div id="instafeed"></div>;
 };
 
 export default InstaFeed;

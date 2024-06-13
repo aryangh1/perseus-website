@@ -35,12 +35,12 @@ export const navLists = [
   {
     id: 2,
     label: 'Services',
-    href: '/#services',
+    href: '/services',
   },
   {
     id: 3,
     label: 'Production',
-    href: '/#production',
+    href: '/production',
   },
   {
     id: 4,
