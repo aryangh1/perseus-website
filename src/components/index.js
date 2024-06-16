@@ -10,6 +10,7 @@ import HowItWorks from './HowItWorks';
 import AboutSection from './AboutSection';
 import EmailForm from './EmailForm';
 import InstaFeed from './InstaFeed';
+import YotubeFeed from './YotubeFeed';
 import Footer from './Footer';
 
 export {
@@ -25,5 +26,6 @@ export {
   AboutSection,
   EmailForm,
   InstaFeed,
+  YotubeFeed,
   Footer,
 };

@@ -24,6 +24,11 @@ import {
   genesisVideo,
   contentCreationImg,
   streetBallLogo,
+  arshiaEsmaeiliLogo,
+  artbuildLogo,
+  genesisBoxingLogo,
+  samamiralaeiLogo,
+  cfrLogo,
 } from '../utils';
 
 export const navLists = [
@@ -35,7 +40,7 @@ export const navLists = [
   {
     id: 2,
     label: 'Services',
-    href: '/services',
+    href: '/',
   },
   {
     id: 3,
@@ -175,11 +180,11 @@ export const clientImg = [
   },
   {
     id: 4,
-    srcImg: studyImg,
+    srcImg: genesisBoxingLogo,
   },
   {
     id: 5,
-    srcImg: naniFcLogo,
+    srcImg: samamiralaeiLogo,
   },
   {
     id: 6,
@@ -187,7 +192,7 @@ export const clientImg = [
   },
   {
     id: 7,
-    srcImg: tstLogo,
+    srcImg: naniFcLogo,
   },
   // {
   //   id: 8,
@@ -195,11 +200,27 @@ export const clientImg = [
   // },
   {
     id: 9,
-    srcImg: genesisImg,
+    srcImg: vmcLogo,
   },
   {
     id: 10,
-    srcImg: vmcLogo,
+    srcImg: genesisImg,
+  },
+  {
+    id: 11,
+    srcImg: artbuildLogo,
+  },
+  {
+    id: 12,
+    srcImg: tstLogo,
+  },
+  {
+    id: 13,
+    srcImg: studyImg,
+  },
+  {
+    id: 14,
+    srcImg: cfrLogo,
   },
 ];
 
@@ -221,5 +242,24 @@ export const aboutSection = [
     label: 'Our expertise spans',
     desc: "A wide array of sectors, tailoring our strategies to meet the unique demands of each industry we serve. At the heart of Perseus Media is a simple yet powerful commitment: to transform your strategy and elevate your brand. Join us, and let's embark on a journey of transformation together.",
     footer: 'Industry Expertise - Tailored Strategies for Your Success',
+  },
+];
+
+export const youtubeEmbedIds = [
+  {
+    id: 1,
+    embedId: 'rs1W8kfQc3U',
+  },
+  {
+    id: 2,
+    embedId: 'Xfwc9ODD8Eg',
+  },
+  {
+    id: 3,
+    embedId: '8bIg_WYSQPI',
+  },
+  {
+    id: 4,
+    embedId: 'udlldsjGQ90',
   },
 ];

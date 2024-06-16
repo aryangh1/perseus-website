@@ -14,7 +14,7 @@ const Clients = () => {
   });
 
   return (
-    <section>
+    <section className="">
       <div className="scrim-max-width">
         <div className="my-24 w-full">
           <h1
@@ -32,7 +32,7 @@ const Clients = () => {
               key={client.id}
               src={client.srcImg}
               alt="partner's logos"
-              width={90}
+              width={120}
               height={48}
             />
           ))}
