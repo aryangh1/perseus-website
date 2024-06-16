@@ -180,7 +180,7 @@ export const clientImg = [
   },
   {
     id: 4,
-    srcImg: genesisBoxingLogo,
+    srcImg: naniFcLogo,
   },
   {
     id: 5,
@@ -192,7 +192,7 @@ export const clientImg = [
   },
   {
     id: 7,
-    srcImg: naniFcLogo,
+    srcImg: genesisBoxingLogo,
   },
   // {
   //   id: 8,
@@ -212,6 +212,10 @@ export const clientImg = [
   },
   {
     id: 12,
+    srcImg: arshiaEsmaeiliLogo,
+  },
+  {
+    id: 13,
     srcImg: tstLogo,
   },
   {

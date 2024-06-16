@@ -25,8 +25,8 @@ const EmailForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_z81y0qf', 'template_ouffgaa', form.current, {
-        publicKey: 'ZrpEFlSxHIMO_gZwj',
+      .sendForm('service_qjag8bk', 'template_7mblhs8', form.current, {
+        publicKey: 'VCS_iSGiZTXooSReV',
       })
       .then(
         () => {
