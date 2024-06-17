@@ -1,18 +1,25 @@
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+
 import { AboutSection } from '../components';
 
 const About = () => {
+  useGSAP(() => {
+    gsap.to('#aboutPageTitle', { opacity: 1, y: 0, duration: 5 });
+  }, []);
+
   return (
-    <section>
-      <div className="mt-24 mb-24">
-        <h1 className="text-5xl lg:text-7xl font-semibold capitalize text-center">
-          About us
+    <section className="max-sm:px-4">
+      <div className="mt-12 mb-24">
+        <h1
+          className="text-5xl lg:text-7xl font-semibold text-center opacity-0 max-sm:text-4xl"
+          id="aboutPageTitle"
+        >
+          We transform brands in the digital world.
         </h1>
 
         <div className="mx-auto max-w-screen-xl text-center py-12 px-4">
-          <h2 className="mb-4 text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-6xl capitalize">
-            We transform brand in the digital world.
-          </h2>
-          <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 hiw-text">
+          <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 hiw-text max-sm:text-md">
             We are your partner in every step of your brand's evolution,
             dedicated to turning your vision into reality and ensuring a
             successful journey.

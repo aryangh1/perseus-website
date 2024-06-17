@@ -5,6 +5,9 @@ import VideoCarousel from './VideoCarousel';
 import Features from './Features';
 import Services from './Services';
 import Gallery from './Gallery';
+import SecondGallery from './SecondGallery';
+import ThirdGallery from './ThirdGallery';
+import ForthGallery from './ForthGallery';
 import Clients from './Clients';
 import HowItWorks from './HowItWorks';
 import AboutSection from './AboutSection';
@@ -21,6 +24,9 @@ export {
   Features,
   Services,
   Gallery,
+  SecondGallery,
+  ThirdGallery,
+  ForthGallery,
   Clients,
   HowItWorks,
   AboutSection,

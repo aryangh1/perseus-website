@@ -5,7 +5,7 @@ import './App.css';
 import {
   HomePage,
   Contact,
-  Pricing,
+  ServicesPage,
   Production,
   About,
   NotFound,
@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
           <Route path="/production" element={<Production />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />

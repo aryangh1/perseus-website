@@ -29,6 +29,20 @@ import {
   genesisBoxingLogo,
   samamiralaeiLogo,
   cfrLogo,
+  secondGallery1Img,
+  secondGallery2Img,
+  secondGallery3Img,
+  secondGallery4Img,
+  secondGallery5Img,
+  secondGallery6Img,
+  secondGallery7Img,
+  secondGallery8Img,
+  secondGallery9Img,
+  secondGallery10Img,
+  secondGallery11Img,
+  secondGallery12Img,
+  secondGallery13Img,
+  thirdGallery1Img,
 } from '../utils';
 
 export const navLists = [
@@ -40,7 +54,7 @@ export const navLists = [
   {
     id: 2,
     label: 'Services',
-    href: '/',
+    href: '/services',
   },
   {
     id: 3,
@@ -219,11 +233,11 @@ export const clientImg = [
     srcImg: tstLogo,
   },
   {
-    id: 13,
+    id: 15,
     srcImg: studyImg,
   },
   {
-    id: 14,
+    id: 16,
     srcImg: cfrLogo,
   },
 ];
@@ -265,5 +279,82 @@ export const youtubeEmbedIds = [
   {
     id: 4,
     embedId: 'udlldsjGQ90',
+  },
+];
+
+export const secondGalleryImg = [
+  {
+    id: 1,
+    srcImg: secondGallery5Img,
+  },
+  {
+    id: 2,
+    srcImg: secondGallery10Img,
+  },
+  {
+    id: 3,
+    srcImg: secondGallery11Img,
+  },
+  {
+    id: 4,
+    srcImg: secondGallery12Img,
+  },
+];
+
+export const thirdGalleryImg = [
+  {
+    id: 1,
+    srcImg: thirdGallery1Img,
+  },
+  {
+    id: 2,
+    srcImg: thirdGallery1Img,
+  },
+  {
+    id: 3,
+    srcImg: thirdGallery1Img,
+  },
+  {
+    id: 4,
+    srcImg: secondGallery2Img,
+  },
+  {
+    id: 5,
+    srcImg: secondGallery13Img,
+  },
+  {
+    id: 6,
+    srcImg: secondGallery3Img,
+  },
+  {
+    id: 4,
+    srcImg: thirdGallery1Img,
+  },
+  {
+    id: 5,
+    srcImg: thirdGallery1Img,
+  },
+  {
+    id: 6,
+    srcImg: thirdGallery1Img,
+  },
+];
+
+export const forthGalleryImg = [
+  {
+    id: 1,
+    srcImg: secondGallery8Img,
+  },
+  {
+    id: 2,
+    srcImg: secondGallery4Img,
+  },
+  {
+    id: 3,
+    srcImg: secondGallery6Img,
+  },
+  {
+    id: 4,
+    srcImg: secondGallery1Img,
   },
 ];
