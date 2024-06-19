@@ -35,7 +35,7 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col justify-center items-start overflow-hidden">
-          <div className="mt-32 mb-24 pl-24 max-sm:pl-0">
+          <div className="mt-32 mb-24 max-sm:px-4">
             <h2 className="text-5xl lg:text-7xl font-semibold">Blending</h2>
             <h2 className="text-5xl lg:text-7xl font-semibold">
               strategies with creativity.

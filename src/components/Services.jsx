@@ -15,7 +15,7 @@ const Services = () => {
   return (
     <section className="bg-zinc">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div className="mt-32 mb-24 pl-24 max-sm:pl-0">
+        <div className="mt-32 mb-24 max-sm:px-4">
           <h2 className="text-5xl lg:text-7xl font-semibold">Designed</h2>
           <h2 className="text-5xl lg:text-7xl font-semibold">
             for business teams like yours.
