@@ -57,6 +57,7 @@ import {
   forthGallery10Img,
   forthGallery11Img,
   forthGallery12Img,
+  kengo3Img,
 } from '../utils';
 
 export const navLists = [
@@ -168,7 +169,7 @@ export const servicesSection = [
 export const galleryImg = [
   {
     id: 1,
-    srcImg: gallery1Img,
+    srcImg: kengo3Img,
   },
   {
     id: 2,
