@@ -29,6 +29,8 @@ import {
   genesisBoxingLogo,
   samamiralaeiLogo,
   cfrLogo,
+  wvtcLogo,
+  gallery1Img,
   secondGallery1Img,
   secondGallery2Img,
   secondGallery3Img,
@@ -166,19 +168,19 @@ export const servicesSection = [
 export const galleryImg = [
   {
     id: 1,
-    srcImg: kengo4Img,
+    srcImg: gallery1Img,
   },
   {
     id: 2,
-    srcImg: CFR3Img,
+    srcImg: CFR2Img,
   },
   {
     id: 3,
-    srcImg: study1Img,
+    srcImg: CFR3Img,
   },
   {
     id: 4,
-    srcImg: CFR2Img,
+    srcImg: study1Img,
   },
 ];
 
@@ -220,37 +222,41 @@ export const clientImg = [
     id: 7,
     srcImg: genesisBoxingLogo,
   },
-  // {
-  //   id: 8,
-  //   srcImg: streetBallLogo,
-  // },
   {
-    id: 9,
+    id: 8,
     srcImg: vmcLogo,
   },
   {
-    id: 10,
+    id: 9,
     srcImg: genesisImg,
   },
   {
-    id: 11,
+    id: 10,
     srcImg: artbuildLogo,
   },
   {
-    id: 12,
+    id: 11,
     srcImg: arshiaEsmaeiliLogo,
   },
   {
-    id: 13,
+    id: 12,
     srcImg: tstLogo,
   },
   {
-    id: 15,
+    id: 13,
     srcImg: studyImg,
   },
   {
-    id: 16,
+    id: 14,
     srcImg: cfrLogo,
+  },
+  {
+    id: 15,
+    srcImg: streetBallLogo,
+  },
+  {
+    id: 16,
+    srcImg: wvtcLogo,
   },
 ];
 
