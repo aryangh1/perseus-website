@@ -64,12 +64,28 @@ import secondGallery5 from '/assets/images/secondGallery/secondGallery5.jpg';
 import secondGallery6 from '/assets/images/secondGallery/secondGallery6.jpg';
 import secondGallery7 from '/assets/images/secondGallery/secondGallery7.jpg';
 import secondGallery8 from '/assets/images/secondGallery/secondGallery8.jpg';
-import secondGallery9 from '/assets/images/secondGallery/secondGallery9.jpg';
-import secondGallery10 from '/assets/images/secondGallery/secondGallery10.jpg';
-import secondGallery11 from '/assets/images/secondGallery/secondGallery11.jpg';
-import secondGallery12 from '/assets/images/secondGallery/secondGallery12.jpg';
-import secondGallery13 from '/assets/images/secondGallery/secondGallery13.jpg';
+
+// third gallery
 import thirdGallery1 from '/assets/images/thirdGallery/thirdGallery1.jpg';
+import thirdGallery2 from '/assets/images/thirdGallery/thirdGallery2.jpg';
+import thirdGallery3 from '/assets/images/thirdGallery/thirdGallery3.jpg';
+import thirdGallery4 from '/assets/images/thirdGallery/thirdGallery4.jpg';
+import thirdGallery5 from '/assets/images/thirdGallery/thirdGallery5.jpg';
+import thirdGallery6 from '/assets/images/thirdGallery/thirdGallery6.jpg';
+
+// forth  gallery
+import forthGallery1 from '/assets/images/forthGallery/forthGallery1.jpg';
+import forthGallery2 from '/assets/images/forthGallery/forthGallery2.jpg';
+import forthGallery3 from '/assets/images/forthGallery/forthGallery3.jpg';
+import forthGallery4 from '/assets/images/forthGallery/forthGallery4.jpg';
+import forthGallery5 from '/assets/images/forthGallery/forthGallery5.jpg';
+import forthGallery6 from '/assets/images/forthGallery/forthGallery6.jpg';
+import forthGallery7 from '/assets/images/forthGallery/forthGallery7.jpg';
+import forthGallery8 from '/assets/images/forthGallery/forthGallery8.jpg';
+import forthGallery9 from '/assets/images/forthGallery/forthGallery9.jpg';
+import forthGallery10 from '/assets/images/forthGallery/forthGallery10.jpg';
+import forthGallery11 from '/assets/images/forthGallery/forthGallery11.jpg';
+import forthGallery12 from '/assets/images/forthGallery/forthGallery12.jpg';
 
 export const coqVideo = coqv;
 export const coqLargeVideo = coqvLarge;
@@ -128,7 +144,7 @@ export const genesisBoxingLogo = genesisBoxing;
 export const samamiralaeiLogo = samamiralaei;
 export const cfrLogo = cfr;
 
-// 2nd & 3rd gallery
+// 2nd & 3rd & 4th gallery
 export const secondGallery1Img = secondGallery1;
 export const secondGallery2Img = secondGallery2;
 export const secondGallery3Img = secondGallery3;
@@ -137,9 +153,23 @@ export const secondGallery5Img = secondGallery5;
 export const secondGallery6Img = secondGallery6;
 export const secondGallery7Img = secondGallery7;
 export const secondGallery8Img = secondGallery8;
-export const secondGallery9Img = secondGallery9;
-export const secondGallery10Img = secondGallery10;
-export const secondGallery11Img = secondGallery11;
-export const secondGallery12Img = secondGallery12;
-export const secondGallery13Img = secondGallery13;
+
 export const thirdGallery1Img = thirdGallery1;
+export const thirdGallery2Img = thirdGallery2;
+export const thirdGallery3Img = thirdGallery3;
+export const thirdGallery4Img = thirdGallery4;
+export const thirdGallery5Img = thirdGallery5;
+export const thirdGallery6Img = thirdGallery6;
+
+export const forthGallery1Img = forthGallery1;
+export const forthGallery2Img = forthGallery2;
+export const forthGallery3Img = forthGallery3;
+export const forthGallery4Img = forthGallery4;
+export const forthGallery5Img = forthGallery5;
+export const forthGallery6Img = forthGallery6;
+export const forthGallery7Img = forthGallery7;
+export const forthGallery8Img = forthGallery8;
+export const forthGallery9Img = forthGallery9;
+export const forthGallery10Img = forthGallery10;
+export const forthGallery11Img = forthGallery11;
+export const forthGallery12Img = forthGallery12;

@@ -1,3 +1,10 @@
+import { useClickAway } from 'react-use';
+import { useRef } from 'react';
+import { useState } from 'react';
+import { Squash as Hamburger } from 'hamburger-react';
+import { AnimatePresence, motion } from 'framer-motion';
+// import { routes } from '../routes';
+
 import { navLists } from '../constants';
 
 const Navbar = () => {
@@ -8,7 +15,7 @@ const Navbar = () => {
           {navLists.map((nav) => (
             <div
               key={nav.id}
-              className="px-5 text-md cursor-pointer text-gray hover:text-white transition-all max-sm:first:hidden duration-700"
+              className="px-5 text-md cursor-pointer text-gray hover:text-white transition-all max-sm:hidden duration-700"
             >
               <a href={nav.href} className="max-sm">
                 {nav.label}

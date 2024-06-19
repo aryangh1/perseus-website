@@ -15,13 +15,16 @@
     "@gsap/react": "^2.1.0",
     "@sentry/react": "^7.108.0",
     "@sentry/vite-plugin": "^2.16.0",
+    "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
+    "hamburger-react": "^2.5.1",
     "instafeed.js": "^2.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "react-use": "^17.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -37,12 +37,24 @@ import {
   secondGallery6Img,
   secondGallery7Img,
   secondGallery8Img,
-  secondGallery9Img,
-  secondGallery10Img,
-  secondGallery11Img,
-  secondGallery12Img,
-  secondGallery13Img,
   thirdGallery1Img,
+  thirdGallery2Img,
+  thirdGallery3Img,
+  thirdGallery4Img,
+  thirdGallery5Img,
+  thirdGallery6Img,
+  forthGallery1Img,
+  forthGallery2Img,
+  forthGallery3Img,
+  forthGallery4Img,
+  forthGallery5Img,
+  forthGallery6Img,
+  forthGallery7Img,
+  forthGallery8Img,
+  forthGallery9Img,
+  forthGallery10Img,
+  forthGallery11Img,
+  forthGallery12Img,
 } from '../utils';
 
 export const navLists = [
@@ -54,7 +66,7 @@ export const navLists = [
   {
     id: 2,
     label: 'Services',
-    href: '/services',
+    href: '/',
   },
   {
     id: 3,
@@ -285,19 +297,35 @@ export const youtubeEmbedIds = [
 export const secondGalleryImg = [
   {
     id: 1,
-    srcImg: secondGallery5Img,
+    srcImg: secondGallery2Img,
   },
   {
     id: 2,
-    srcImg: secondGallery10Img,
+    srcImg: secondGallery6Img,
   },
   {
     id: 3,
-    srcImg: secondGallery11Img,
+    srcImg: secondGallery8Img,
   },
   {
     id: 4,
-    srcImg: secondGallery12Img,
+    srcImg: secondGallery5Img,
+  },
+  {
+    id: 5,
+    srcImg: secondGallery1Img,
+  },
+  {
+    id: 6,
+    srcImg: secondGallery3Img,
+  },
+  {
+    id: 7,
+    srcImg: secondGallery7Img,
+  },
+  {
+    id: 8,
+    srcImg: secondGallery4Img,
   },
 ];
 
@@ -308,53 +336,74 @@ export const thirdGalleryImg = [
   },
   {
     id: 2,
-    srcImg: thirdGallery1Img,
+    srcImg: thirdGallery4Img,
   },
   {
     id: 3,
-    srcImg: thirdGallery1Img,
+    srcImg: thirdGallery5Img,
   },
   {
     id: 4,
-    srcImg: secondGallery2Img,
+    srcImg: thirdGallery2Img,
   },
   {
     id: 5,
-    srcImg: secondGallery13Img,
+    srcImg: thirdGallery6Img,
   },
   {
     id: 6,
-    srcImg: secondGallery3Img,
-  },
-  {
-    id: 4,
-    srcImg: thirdGallery1Img,
-  },
-  {
-    id: 5,
-    srcImg: thirdGallery1Img,
-  },
-  {
-    id: 6,
-    srcImg: thirdGallery1Img,
+    srcImg: thirdGallery3Img,
   },
 ];
 
 export const forthGalleryImg = [
   {
     id: 1,
-    srcImg: secondGallery8Img,
+    srcImg: forthGallery1Img,
   },
   {
     id: 2,
-    srcImg: secondGallery4Img,
+    srcImg: forthGallery2Img,
   },
   {
     id: 3,
-    srcImg: secondGallery6Img,
+    srcImg: forthGallery3Img,
   },
   {
     id: 4,
-    srcImg: secondGallery1Img,
+    srcImg: forthGallery4Img,
+  },
+
+  {
+    id: 5,
+    srcImg: forthGallery5Img,
+  },
+  {
+    id: 6,
+    srcImg: forthGallery6Img,
+  },
+  {
+    id: 7,
+    srcImg: forthGallery7Img,
+  },
+  {
+    id: 8,
+    srcImg: forthGallery8Img,
+  },
+  {
+    id: 9,
+    srcImg: forthGallery9Img,
+  },
+  {
+    id: 10,
+    srcImg: forthGallery10Img,
+  },
+  {
+    id: 11,
+    srcImg: forthGallery11Img,
+  },
+  {
+    id: 12,
+    srcImg: forthGallery12Img,
   },
 ];

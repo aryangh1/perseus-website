@@ -2,7 +2,7 @@ import { forthGalleryImg } from '../constants';
 
 const ForthGallery = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 max-sm:gap-2 gap-4 px-24 max-sm:px-12 mb-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 max-sm:gap-2 gap-4 px-24 max-sm:px-12 mb-24">
       {forthGalleryImg.map((forthImg) => (
         <div className="grid gap-4" key={forthImg.id}>
           <div>
