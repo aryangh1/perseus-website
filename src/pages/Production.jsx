@@ -36,7 +36,7 @@ const Production = () => {
       <div className="flex-col flex-center w-full">
         <img src={perseusWhiteImg} alt="logo" width={240} height={240} />
       </div>
-      <div className="mb-12 w-full md:flex items-end justify-between pl-24 max-sm:pl-24">
+      <div className="mb-12 w-full md:flex items-end justify-between pl-24 max-sm:pl-0">
         <h1 id="servicesSubheading" className="section-heading">
           Personal Branding
         </h1>
@@ -84,17 +84,17 @@ const Production = () => {
 
       <InstaFeed />
 
-      <div className="w-full md:flex items-end justify-between pl-24 max-sm:pl-0 mb-6 mt-[-120px] max-sm:mt-[-340px]">
-        <h1 id="productionSubheading" className="section-heading">
+      <div className="w-full md:flex items-end justify-center mb-6 mt-[-140px] max-sm:mt-[-80px]">
+        <h1 id="productionSubheading" className="section-heading text-center">
           Our Video Portfolio
         </h1>
       </div>
       <div>
-        <p className="font-normal text-xl text-center max-sm:text-left hiw-text">
+        <p className="font-normal text-xl text-center hiw-text">
           Explore our creative video projects and see our quality and creativity
           in action.
         </p>
-        <div className="flex flex-wrap justify-around mt-4 max-sm:px-12 gap-x-6">
+        <div className="flex flex-wrap items-center justify-around mt-4 gap-x-6">
           {youtubeEmbedIds.map((youtubeEmbedId) => (
             <YotubeFeed
               key={youtubeEmbedId.id}
