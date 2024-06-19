@@ -12,7 +12,7 @@ const YotubeFeed = ({ embedId }) => {
   );
 };
 
-YotubeFeed.PropTypes = {
+YotubeFeed.propTypes = {
   embedId: PropTypes.string.isRequired,
 };
 
