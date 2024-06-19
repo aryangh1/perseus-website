@@ -87,7 +87,7 @@ const Production = () => {
 
       <InstaFeed />
 
-      <div className="w-full md:flex items-end justify-between pl-24 max-sm:pl-0 mb-12">
+      <div className="w-full md:flex items-end justify-between pl-24 max-sm:pl-0 mb-12 mt-[-120px]">
         <h1 id="productionSubheading" className="section-heading">
           Our Video Portfolio
         </h1>
