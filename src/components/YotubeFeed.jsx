@@ -6,8 +6,10 @@ const YotubeFeed = ({ embedId }) => {
     <iframe
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-      className="aspect-video rounded-sm duration-1000 mt-6 hover:opacity-80"
+      className="rounded-sm duration-1000 mt-6 hover:opacity-80 flex-grow max-sm:flex-col"
       src={`https://www.youtube.com/embed/${embedId}`}
+      width={450}
+      height={300}
     ></iframe>
   );
 };
