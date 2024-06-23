@@ -28,9 +28,9 @@ const HowItWorks = () => {
   }, []);
 
   useGSAP(() => {
-    gsap.from('#chip', {
+    gsap.from('#logo', {
       scrollTrigger: {
-        trigger: '#chip',
+        trigger: '#logo',
         start: '20% bottom',
       },
       opacity: 0,
@@ -50,7 +50,7 @@ const HowItWorks = () => {
   return (
     <section className="sm:px-10 px-5">
       <div className="screen-max-width">
-        <div id="chip" className="flex-center w-full my-20">
+        <div id="logo" className="flex-center w-full my-20">
           <img src={perseusWhiteImg} alt="logo" width={240} height={360} />
         </div>
 

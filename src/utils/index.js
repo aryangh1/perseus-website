@@ -54,6 +54,8 @@ import artbuild from '/assets/images/partnerships/artbuild.jpg';
 import genesisBoxing from '/assets/images/partnerships/genesisBoxingClub.jpg';
 import samamiralaei from '/assets/images/partnerships/samamiralaei.png';
 import cfr from '/assets/images/partnerships/cfr-logo.jpg';
+import gsc from '/assets/images/partnerships/gsc.jpg';
+import cindys from '/assets/images/partnerships/cindys.jpg';
 import wvtc from '/assets/images/partnerships/wvtc.png';
 
 import gallery1 from '/assets/images/gallery1.jpg';
@@ -146,6 +148,8 @@ export const artbuildLogo = artbuild;
 export const genesisBoxingLogo = genesisBoxing;
 export const samamiralaeiLogo = samamiralaei;
 export const cfrLogo = cfr;
+export const gscLogo = gsc;
+export const cindysLogo = cindys;
 export const wvtcLogo = wvtc;
 
 export const gallery1Img = gallery1;

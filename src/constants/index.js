@@ -29,6 +29,7 @@ import {
   genesisBoxingLogo,
   samamiralaeiLogo,
   cfrLogo,
+  gscLogo,
   wvtcLogo,
   gallery1Img,
   secondGallery1Img,
@@ -58,6 +59,7 @@ import {
   forthGallery11Img,
   forthGallery12Img,
   kengo3Img,
+  cindysLogo,
 } from '../utils';
 
 export const navLists = [
@@ -257,6 +259,14 @@ export const clientImg = [
   },
   {
     id: 16,
+    srcImg: gscLogo,
+  },
+  {
+    id: 17,
+    srcImg: cindysLogo,
+  },
+  {
+    id: 18,
     srcImg: wvtcLogo,
   },
 ];
