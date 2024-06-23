@@ -2,7 +2,7 @@ import { aboutSection } from '../constants';
 
 const AboutSection = () => {
   return (
-    <div className="mx-auto w-full max-w-7xl">
+    <div className="mx-auto w-full max-w-7xl sm:heading-style">
       <div className="flex flex-col gap-5 md:flex-row">
         <div className="flex flex-col gap-6">
           {aboutSection.map((about) => (

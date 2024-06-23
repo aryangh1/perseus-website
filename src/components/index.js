@@ -14,6 +14,7 @@ import AboutSection from './AboutSection';
 import EmailForm from './EmailForm';
 import InstaFeed from './InstaFeed';
 import YotubeFeed from './YotubeFeed';
+import HeadingText from './HeadingText';
 import Footer from './Footer';
 
 export {
@@ -33,5 +34,6 @@ export {
   EmailForm,
   InstaFeed,
   YotubeFeed,
+  HeadingText,
   Footer,
 };

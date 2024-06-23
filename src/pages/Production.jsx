@@ -7,6 +7,7 @@ import {
   SecondGallery,
   ThirdGallery,
   ForthGallery,
+  HeadingText,
 } from '../components';
 import { youtubeEmbedIds } from '../constants';
 import { perseusWhiteImg } from '../utils';
@@ -14,30 +15,24 @@ import { perseusWhiteImg } from '../utils';
 const Production = () => {
   useGSAP(() => {
     gsap.to('#productionSubheading', { opacity: 1, y: 0 });
-    gsap.to('#servicesPageTitle', { opacity: 1, y: 0, duration: 5 });
-    gsap.to('#servicesSubheading', { opacity: 1, y: 0, duration: 2 });
+    gsap.to('#productionPageTItle', { opacity: 1, y: 0, duration: 5 });
+    gsap.to('#productionSubHeading', { opacity: 1, y: 0, duration: 2 });
   }, []);
 
   return (
-    <section className="w-screen overflow-hidden h-full mt-12 px-24 max-sm:px-12">
-      <div className="pl-24 max-sm:pl-0">
-        <h2
-          className="text-5xl lg:text-7xl font-semibold mb-6 opacity-0"
-          id="servicesPageTitle"
-        >
-          Expertise in Photography.
-        </h2>
-        <p className="font-normal text-xl text-left hiw-text mb-12 ">
-          Dive into our portfolio of creative photoshoots to experience our
-          commitment to quality and innovation.
-        </p>
-      </div>
+    <section className="heading-style">
+      <HeadingText
+        heading="Expertise in Photography."
+        subHeading="Dive into our portfolio of creative photoshoots to experience our
+          commitment to quality and innovation."
+        headingID="productionPageTItle"
+      />
       <SecondGallery />
       <div className="flex-col flex-center w-full">
         <img src={perseusWhiteImg} alt="logo" width={240} height={240} />
       </div>
       <div className="mb-12 w-full md:flex items-end justify-between pl-24 max-sm:pl-0">
-        <h1 id="servicesSubheading" className="section-heading">
+        <h1 id="productionSubHeading" className="section-heading">
           Personal Branding
         </h1>
       </div>

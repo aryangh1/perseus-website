@@ -71,7 +71,7 @@ export const navLists = [
   {
     id: 2,
     label: 'Services',
-    href: '/',
+    href: '/services',
   },
   {
     id: 3,
