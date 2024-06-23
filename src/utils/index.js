@@ -8,13 +8,13 @@ import genesisV from '/assets/videos/genesis-walkaround.mp4';
 import perseusHero from '/assets/videos/perseus-hero.mp4';
 import perseusSmallHero from '/assets/videos/perseus-smallHero.mp4';
 
-import perseus from '/assets/images/perseus.svg';
+import perseus from '/assets/images/icons/perseus.svg';
 import perseusWhite from '/assets/images/perseus-white.png';
-import watch from '/assets/images/watch.svg';
-import right from '/assets/images/right.svg';
-import replay from '/assets/images/replay.svg';
-import play from '/assets/images/play.svg';
-import pause from '/assets/images/pause.svg';
+import watch from '/assets/images/icons/watch.svg';
+import right from '/assets/images/icons/right.svg';
+import replay from '/assets/images/icons/replay.svg';
+import play from '/assets/images/icons/play.svg';
+import pause from '/assets/images/icons/pause.svg';
 
 import study1 from '/assets/images/study1.jpg';
 import taurus1 from '/assets/images/taurus1.jpeg';
@@ -30,13 +30,13 @@ import CFR1 from '/assets/images/CFR1.jpg';
 import CFR2 from '/assets/images/CFR2.jpg';
 import CFR3 from '/assets/images/CFR3.jpg';
 import frame from '/assets/images/frame.png';
-import videography from '/assets/images/videography.svg';
-import socialMediaManagement from '/assets/images/socialmediamanagement.svg';
-import branding from '/assets/images/branding.svg';
-import photo from '/assets/images/photo.svg';
-import webDesign from '/assets/images/webdesign.svg';
-import ads from '/assets/images/advertisements.svg';
-import contentCreation from '/assets/images/contentcreation.svg';
+import videography from '/assets/images/icons/videography.svg';
+import socialMediaManagement from '/assets/images/icons/socialmediamanagement.svg';
+import branding from '/assets/images/icons/branding.svg';
+import photo from '/assets/images/icons/photo.svg';
+import webDesign from '/assets/images/icons/webdesign.svg';
+import ads from '/assets/images/icons/advertisements.svg';
+import contentCreation from '/assets/images/icons/contentcreation.svg';
 
 // partnerships
 import naniFc from '/assets/images/partnerships/nanifc.jpg';
