@@ -9,6 +9,9 @@ const About = () => {
             dedicated to turning your vision into reality and ensuring a
             successful journey.`}
         headingID="aboutPageTitle"
+        parentHeadingStyle="!pl-0"
+        headingStyle="text-center"
+        subHeadingStyle="text-center"
       />
 
       <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 text-center">
