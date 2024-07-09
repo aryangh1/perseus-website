@@ -62,6 +62,12 @@ import {
   cindysLogo,
 } from '../utils';
 
+import {
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ServerIcon,
+} from '@heroicons/react/24/solid';
+
 export const navLists = [
   {
     id: 1,
@@ -422,5 +428,165 @@ export const forthGalleryImg = [
   {
     id: 12,
     srcImg: forthGallery12Img,
+  },
+];
+
+export const serviceFeatures = [
+  {
+    id: 1,
+    name: 'Available 24/7',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    id: 2,
+    name: 'Available 24/7',
+    description:
+      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    icon: LockClosedIcon,
+  },
+  {
+    id: 3,
+    name: 'Available 24/7',
+    description:
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ServerIcon,
+  },
+];
+
+export const stats = [
+  { id: 1, name: 'Real Estate Services', value: '44 million' },
+  { id: 2, name: 'Real Estate Services', value: '$119 trillion' },
+  { id: 3, name: 'Real Estate Services', value: '46,000' },
+  { id: 4, name: 'Real Estate Services', value: '44 million' },
+  { id: 5, name: 'Real Estate Services', value: '$119 trillion' },
+  { id: 6, name: 'Real Estate Services', value: '46,000' },
+];
+
+// export const team = [
+//   {
+//     id: 1,
+//     fullName: 'Aryan Ghasemi',
+//     role: 'CEO',
+//     profilePicture:
+//       'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+//     socialMedia: [
+//       {
+//         linkedIn: 'https://www.linkedin.com/in/aryan-ghasemi-80043424a/',
+//         instagram: '',
+//         github: '',
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     fullName: 'Saman Hoseinpour',
+//     role: 'CTO',
+//     profilePicture:
+//       'https://media.licdn.com/dms/image/D5603AQExyaUztgnL7A/profile-displayphoto-shrink_400_400/0/1692111463402?e=1724889600&v=beta&t=MyiwFuNVwXXxyq4_WTIy0p-MQxJG_ED5emftBquR2sM',
+//     socialMedia: [
+//       {
+//         linkedIn: 'https://www.linkedin.com/in/saman-hoseinpour-202280221/',
+//         instagram: '',
+//         github: 'https://github.com/samanhoseinpour',
+//       },
+//     ],
+//   },
+// ];
+
+export const team = [
+  {
+    id: 1,
+    img: 'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+    title: 'CEO / Founder',
+    name: 'Aryan Ghasemi',
+  },
+  {
+    id: 2,
+    img: 'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+    title: 'CEO / Founder',
+    name: 'Aryan Ghasemi',
+  },
+  {
+    id: 3,
+    img: 'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+    title: 'CEO / Founder',
+    name: 'Aryan Ghasemi',
+  },
+  {
+    id: 4,
+    img: 'https://media.licdn.com/dms/image/D5603AQExyaUztgnL7A/profile-displayphoto-shrink_400_400/0/1692111463402?e=1724889600&v=beta&t=MyiwFuNVwXXxyq4_WTIy0p-MQxJG_ED5emftBquR2sM',
+    title: 'CTO / Software Engineer',
+    name: 'Saman Hoseinpour',
+  },
+  {
+    id: 5,
+    img: 'https://media.licdn.com/dms/image/D5603AQExyaUztgnL7A/profile-displayphoto-shrink_400_400/0/1692111463402?e=1724889600&v=beta&t=MyiwFuNVwXXxyq4_WTIy0p-MQxJG_ED5emftBquR2sM',
+    title: 'CTO / Software Engineer',
+    name: 'Saman Hoseinpour',
+  },
+  {
+    id: 6,
+    img: 'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+    title: 'CEO / Founder',
+    name: 'Aryan Ghasemi',
+  },
+  {
+    id: 7,
+    img: 'https://media.licdn.com/dms/image/D5603AQExyaUztgnL7A/profile-displayphoto-shrink_400_400/0/1692111463402?e=1724889600&v=beta&t=MyiwFuNVwXXxyq4_WTIy0p-MQxJG_ED5emftBquR2sM',
+    title: 'CTO / Software Engineer',
+    name: 'Saman Hoseinpour',
+  },
+  {
+    id: 8,
+    img: 'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
+    title: 'CTO / Software Engineer',
+    name: 'Saman Hoseinpour',
+  },
+];
+
+export const servicesCarousel = [
+  {
+    id: 1,
+    title: 'Dji Drone Avata',
+    img: '../../public/assets/images/services/drone-dji.png',
+    imageWidth: 1000,
+    imageHeight: 1000,
+  },
+  {
+    id: 2,
+    title: 'Sony FX 3',
+    img: '../../public/assets/images/services/FX3.png',
+    imageWidth: 1000,
+    imageHeight: 1200,
+  },
+  {
+    id: 3,
+    title: 'Dji Drone Avata',
+    img: '../../public/assets/images/services/drone-dji.png',
+    imageWidth: 1000,
+    imageHeight: 1000,
+  },
+  {
+    id: 4,
+    title: 'Sony FX 3',
+    img: '../../public/assets/images/services/FX3.png',
+    imageWidth: 1000,
+    imageHeight: 1200,
+  },
+  {
+    id: 5,
+    title: 'Dji Drone Avata',
+    img: '../../public/assets/images/services/drone-dji.png',
+    imageWidth: 1000,
+    imageHeight: 1000,
+  },
+  {
+    id: 6,
+    title: 'Sony FX 3',
+    img: '../../public/assets/images/services/FX3.png',
+    imageWidth: 1000,
+    imageHeight: 1200,
   },
 ];

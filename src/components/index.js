@@ -15,6 +15,9 @@ import EmailForm from './EmailForm';
 import InstaFeed from './InstaFeed';
 import YotubeFeed from './YotubeFeed';
 import HeadingText from './HeadingText';
+import ServicesCarousel from './services/ServicesCarousel';
+
+import Team from './Team';
 import Footer from './Footer';
 
 export {
@@ -35,5 +38,7 @@ export {
   InstaFeed,
   YotubeFeed,
   HeadingText,
+  ServicesCarousel,
+  Team,
   Footer,
 };
