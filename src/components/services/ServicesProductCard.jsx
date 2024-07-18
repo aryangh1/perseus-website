@@ -23,7 +23,7 @@ const ServicesProductCard = ({
 
   return (
     <motion.div
-      className="relative h-[800px] rounded-xl bg-zinc px-8 pt-8 overflow-hidden flex-col gap-2"
+      className="relative h-[800px] max-sm:h-[400px] rounded-xl bg-zinc px-8 pt-8 overflow-hidden flex-col gap-2"
       {...props}
       initial={false}
       animate={showDetail ? 'detail' : 'main'}
@@ -70,7 +70,7 @@ const DetailContainer = ({ tintColor, content }) => {
       exit="exit"
     >
       <motion.p
-        className="text-xl max-w-[80ch] mx-auto text-zinc font-bold"
+        className="text-xl max-w-[80ch] mx-auto text-zinc font-bold max-sm:text-sm"
         style={{ backgroundColor: tintColor }}
         variants={animationVariants['content']}
       >

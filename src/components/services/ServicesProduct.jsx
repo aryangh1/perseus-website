@@ -3,7 +3,7 @@ import { ServicesProductCard } from '..';
 const ServicesProduct = () => {
   return (
     <section className="mt-16">
-      <div className="grid grid-cols-2 gap-8 mt-6">
+      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-8 mt-6">
         <ServicesProductCard
           tintColor="white"
           title="All your needs in one place."
@@ -21,19 +21,19 @@ const ServicesProduct = () => {
         </ServicesProductCard>
         <ServicesProductCard
           tintColor="white"
-          title="We do drone"
+          title="All your needs in one place."
           description="We handle all aspects of your media strategy, from concept to execution."
           detailContent="Experience the convenience of a one-stop media solution. We streamline your marketing efforts by managing all aspects of your media strategy in-house. From concept development to campaign execution, we've got you covered"
         >
           <div className="h-full flex-1 flex flex-col justify-center items-center">
-            <p className="lg:text-[3.5rem] leading-tight tracking-tight">
+            <p className="text-[2.5rem] lg:text-[3.5rem] leading-tight tracking-tight max-sm:text-[1.5rem] mt-[-100px]">
               Seamless coordination across all media channels, for a powerful
               brand message.
             </p>
           </div>
         </ServicesProductCard>
       </div>
-      <div className="mt-8">
+      <div className="mt-8 max-xl:hidden">
         <ServicesProductCard
           tintColor="white"
           title="We do drone"
@@ -44,7 +44,7 @@ const ServicesProduct = () => {
             <img
               src="../../public/assets/images/services/drone-dji.png"
               alt="drone dji"
-              className="h-full w-full object-contain lg:object-cover object-top"
+              className="h-auto w-auto object-contain lg:object-cover object-top"
               sizes="50vh"
             />
             <p className="lg:text-[3.5rem] leading-tight tracking-tight">

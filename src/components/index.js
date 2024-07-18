@@ -21,6 +21,7 @@ import ServicesStats from './services/ServicesStats';
 import TextParallax from './services/TextParallax';
 import ServicesProduct from './services/ServicesProduct';
 import ServicesProductCard from './services/ServicesProductCard';
+import ServicesVideoText from './services/ServicesVideoText';
 
 import AnimatedRoutes from './AnimatedRoutes';
 import Team from './Team';
@@ -51,6 +52,7 @@ export {
   ServicesStats,
   ServicesProduct,
   ServicesProductCard,
+  ServicesVideoText,
   AnimatedRoutes,
   Team,
   ScrollBtn,

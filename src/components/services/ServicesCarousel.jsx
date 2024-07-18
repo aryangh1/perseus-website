@@ -42,7 +42,7 @@ const ServicesCarousel = () => {
   }, [currentSlide]);
 
   return (
-    <section className="mt-24">
+    <section className="mt-48">
       <div className="h-[500px] overflow-hidden">
         <ul
           ref={sliderRef}
