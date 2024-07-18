@@ -16,6 +16,8 @@ import InstaFeed from './InstaFeed';
 import YotubeFeed from './YotubeFeed';
 import HeadingText from './HeadingText';
 import ServicesCarousel from './services/ServicesCarousel';
+import ServicesStats from './services/ServicesStats';
+import TextParallax from './services/TextParallax';
 import AnimatedRoutes from './AnimatedRoutes';
 import Team from './Team';
 import ScrollBtn from './ScrollBtn';
@@ -40,7 +42,9 @@ export {
   InstaFeed,
   YotubeFeed,
   HeadingText,
+  TextParallax,
   ServicesCarousel,
+  ServicesStats,
   AnimatedRoutes,
   Team,
   ScrollBtn,

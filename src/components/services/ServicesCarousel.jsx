@@ -42,7 +42,7 @@ const ServicesCarousel = () => {
   }, [currentSlide]);
 
   return (
-    <section className="min-h-screen py-16">
+    <section className="mt-16">
       <div className="h-[500px] overflow-hidden">
         <ul
           ref={sliderRef}
