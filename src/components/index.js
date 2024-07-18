@@ -15,9 +15,13 @@ import EmailForm from './EmailForm';
 import InstaFeed from './InstaFeed';
 import YotubeFeed from './YotubeFeed';
 import HeadingText from './HeadingText';
+// Services Components
 import ServicesCarousel from './services/ServicesCarousel';
 import ServicesStats from './services/ServicesStats';
 import TextParallax from './services/TextParallax';
+import ServicesProduct from './services/ServicesProduct';
+import ServicesProductCard from './services/ServicesProductCard';
+
 import AnimatedRoutes from './AnimatedRoutes';
 import Team from './Team';
 import ScrollBtn from './ScrollBtn';
@@ -45,6 +49,8 @@ export {
   TextParallax,
   ServicesCarousel,
   ServicesStats,
+  ServicesProduct,
+  ServicesProductCard,
   AnimatedRoutes,
   Team,
   ScrollBtn,
