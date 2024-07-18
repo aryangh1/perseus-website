@@ -42,11 +42,7 @@ const ServicesCarousel = () => {
   }, [currentSlide]);
 
   return (
-    <div className="min-h-screen py-16">
-      {/* <h2 className="font-semibold text-6xl text-center max-w-[800px] mx-auto mb-20">
-        A magical connection to your devices.
-      </h2> */}
-
+    <section className="min-h-screen py-16">
       <div className="h-[500px] overflow-hidden">
         <ul
           ref={sliderRef}
@@ -102,7 +98,7 @@ const ServicesCarousel = () => {
           <Chevron className="rotate-180 w-3 h-3" />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

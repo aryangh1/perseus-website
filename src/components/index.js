@@ -16,8 +16,10 @@ import InstaFeed from './InstaFeed';
 import YotubeFeed from './YotubeFeed';
 import HeadingText from './HeadingText';
 import ServicesCarousel from './services/ServicesCarousel';
-
+import AnimatedRoutes from './AnimatedRoutes';
 import Team from './Team';
+import ScrollBtn from './ScrollBtn';
+import ProgressBar from './ProgressBar';
 import Footer from './Footer';
 
 export {
@@ -39,6 +41,9 @@ export {
   YotubeFeed,
   HeadingText,
   ServicesCarousel,
+  AnimatedRoutes,
   Team,
+  ScrollBtn,
+  ProgressBar,
   Footer,
 };

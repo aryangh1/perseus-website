@@ -2,7 +2,7 @@ import { secondGalleryImg } from '../constants';
 
 const SecondGallery = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 max-sm:gap-2 gap-4 px-24 max-sm:px-12 mb-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 max-sm:gap-2 gap-4 px-24 max-md:px-2 mb-6 max-md:grid-cols-4">
       {secondGalleryImg.map((secondImg) => (
         <div className="grid gap-4" key={secondImg.id}>
           <div>

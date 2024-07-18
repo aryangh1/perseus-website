@@ -1,8 +1,9 @@
+import { AnimatedRoutes } from '../components';
 import { perseusWhiteImg } from '../utils';
 
 const NotFound = () => {
   return (
-    <>
+    <AnimatedRoutes>
       <section className="relative z-10 bg-primary py-[120px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex">
@@ -33,7 +34,7 @@ const NotFound = () => {
           </div>
         </div>
       </section>
-    </>
+    </AnimatedRoutes>
   );
 };
 

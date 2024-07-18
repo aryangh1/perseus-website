@@ -5,8 +5,9 @@ import andrewTaurusV from '/assets/videos/andrew-taurus.mp4';
 import showrooomV from '/assets/videos/showroom.mp4';
 import studyV from '/assets/videos/study-video.mp4';
 import genesisV from '/assets/videos/genesis-walkaround.mp4';
-import perseusHero from '/assets/videos/perseus-hero.mp4';
 import perseusSmallHero from '/assets/videos/perseus-smallHero.mp4';
+import perseusLM from '/assets/videos/perseus-logo-motion.mp4';
+import adsV from '/assets/videos/ads.mp4';
 
 import perseus from '/assets/images/icons/perseus.svg';
 import perseusWhite from '/assets/images/perseus-white.png';
@@ -99,8 +100,9 @@ export const andrewTaurusVideo = andrewTaurusV;
 export const showroomVideo = showrooomV;
 export const studyVideo = studyV;
 export const genesisVideo = genesisV;
-export const perseusHeroVideo = perseusHero;
 export const perseusSmallHeroVideo = perseusSmallHero;
+export const perseusLogoMotion = perseusLM;
+export const adsVideo = adsV;
 
 export const perseusImg = perseus;
 export const perseusWhiteImg = perseusWhite;

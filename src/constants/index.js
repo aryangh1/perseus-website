@@ -5,7 +5,6 @@ import {
   webDesignImg,
   advertisementsImg,
   CFR2Img,
-  kengo4Img,
   study1Img,
   CFR3Img,
   naniFcLogo,
@@ -31,14 +30,9 @@ import {
   cfrLogo,
   gscLogo,
   wvtcLogo,
-  gallery1Img,
-  secondGallery1Img,
   secondGallery2Img,
-  secondGallery3Img,
-  secondGallery4Img,
   secondGallery5Img,
   secondGallery6Img,
-  secondGallery7Img,
   secondGallery8Img,
   thirdGallery1Img,
   thirdGallery2Img,
@@ -50,10 +44,6 @@ import {
   forthGallery2Img,
   forthGallery3Img,
   forthGallery4Img,
-  forthGallery5Img,
-  forthGallery6Img,
-  forthGallery7Img,
-  forthGallery8Img,
   forthGallery9Img,
   forthGallery10Img,
   forthGallery11Img,
@@ -63,9 +53,11 @@ import {
 } from '../utils';
 
 import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
+  HomeIcon,
+  WrenchScrewdriverIcon,
+  PhoneIcon,
+  VideoCameraIcon,
+  SparklesIcon,
 } from '@heroicons/react/24/solid';
 
 export const navLists = [
@@ -93,6 +85,39 @@ export const navLists = [
     id: 5,
     label: 'About',
     href: '/about',
+  },
+];
+
+export const hamburgerLists = [
+  {
+    id: 1,
+    label: 'Home',
+    href: '/',
+    Icon: HomeIcon,
+  },
+  {
+    id: 2,
+    label: 'Services',
+    href: '/services',
+    Icon: WrenchScrewdriverIcon,
+  },
+  {
+    id: 3,
+    label: 'Production',
+    href: '/production',
+    Icon: VideoCameraIcon,
+  },
+  {
+    id: 4,
+    label: 'Contact',
+    href: '/contact',
+    Icon: PhoneIcon,
+  },
+  {
+    id: 5,
+    label: 'About',
+    href: '/about',
+    Icon: SparklesIcon,
   },
 ];
 
@@ -315,6 +340,14 @@ export const youtubeEmbedIds = [
     id: 4,
     embedId: 'udlldsjGQ90',
   },
+  {
+    id: 5,
+    embedId: '3QH6Mb01Pys',
+  },
+  {
+    id: 6,
+    embedId: 'OO5Q69P96_s',
+  },
 ];
 
 export const secondGalleryImg = [
@@ -334,22 +367,22 @@ export const secondGalleryImg = [
     id: 4,
     srcImg: secondGallery5Img,
   },
-  {
-    id: 5,
-    srcImg: secondGallery1Img,
-  },
-  {
-    id: 6,
-    srcImg: secondGallery3Img,
-  },
-  {
-    id: 7,
-    srcImg: secondGallery7Img,
-  },
-  {
-    id: 8,
-    srcImg: secondGallery4Img,
-  },
+  // {
+  //   id: 5,
+  //   srcImg: secondGallery1Img,
+  // },
+  // {
+  //   id: 6,
+  //   srcImg: secondGallery3Img,
+  // },
+  // {
+  //   id: 7,
+  //   srcImg: secondGallery7Img,
+  // },
+  // {
+  //   id: 8,
+  //   srcImg: secondGallery4Img,
+  // },
 ];
 
 export const thirdGalleryImg = [
@@ -396,23 +429,22 @@ export const forthGalleryImg = [
     id: 4,
     srcImg: forthGallery4Img,
   },
-
-  {
-    id: 5,
-    srcImg: forthGallery5Img,
-  },
-  {
-    id: 6,
-    srcImg: forthGallery6Img,
-  },
-  {
-    id: 7,
-    srcImg: forthGallery7Img,
-  },
-  {
-    id: 8,
-    srcImg: forthGallery8Img,
-  },
+  // {
+  //   id: 5,
+  //   srcImg: forthGallery5Img,
+  // },
+  // {
+  //   id: 6,
+  //   srcImg: forthGallery6Img,
+  // },
+  // {
+  //   id: 7,
+  //   srcImg: forthGallery7Img,
+  // },
+  // {
+  //   id: 8,
+  //   srcImg: forthGallery8Img,
+  // },
   {
     id: 9,
     srcImg: forthGallery9Img,
@@ -431,69 +463,33 @@ export const forthGalleryImg = [
   },
 ];
 
-export const serviceFeatures = [
+export const stats = [
   {
     id: 1,
-    name: 'Available 24/7',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+    name: 'Visuals - Listings - 3D Modeling',
+    value: 'Real Estate',
   },
   {
     id: 2,
-    name: 'Available 24/7',
-    description:
-      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
+    name: 'Engage - Motivate - Transformation',
+    value: 'Fitness - Sports Media',
+  },
+  { id: 3, name: 'Promote - Amplify - Impact', value: 'Events Promotion' },
+  {
+    id: 4,
+    name: 'Storytelling - Credibility - Influence',
+    value: 'Personal Branding',
   },
   {
-    id: 3,
-    name: 'Available 24/7',
-    description:
-      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ServerIcon,
+    id: 5,
+    name: 'Visibility - Progress - Trust',
+    value: 'Construction',
   },
+  { id: 6, name: 'Expertise - Care - Connection', value: 'Healthcare Media' },
+  { id: 7, name: 'Attract - Engage - Sell', value: 'E-Commerce' },
+  { id: 8, name: 'Showcase - Drive - Impress', value: 'Automotive' },
+  { id: 9, name: 'Flavor - Visuals - Delight', value: 'Food - Beverage' },
 ];
-
-export const stats = [
-  { id: 1, name: 'Real Estate Services', value: '44 million' },
-  { id: 2, name: 'Real Estate Services', value: '$119 trillion' },
-  { id: 3, name: 'Real Estate Services', value: '46,000' },
-  { id: 4, name: 'Real Estate Services', value: '44 million' },
-  { id: 5, name: 'Real Estate Services', value: '$119 trillion' },
-  { id: 6, name: 'Real Estate Services', value: '46,000' },
-];
-
-// export const team = [
-//   {
-//     id: 1,
-//     fullName: 'Aryan Ghasemi',
-//     role: 'CEO',
-//     profilePicture:
-//       'https://media.licdn.com/dms/image/D5603AQGXjld1-leEQg/profile-displayphoto-shrink_100_100/0/1696183512424?e=1724889600&v=beta&t=hO3edY-DMPGq9N9yaY68qlMjeHa1KuWfcrn8H4nBKmo',
-//     socialMedia: [
-//       {
-//         linkedIn: 'https://www.linkedin.com/in/aryan-ghasemi-80043424a/',
-//         instagram: '',
-//         github: '',
-//       },
-//     ],
-//   },
-//   {
-//     id: 2,
-//     fullName: 'Saman Hoseinpour',
-//     role: 'CTO',
-//     profilePicture:
-//       'https://media.licdn.com/dms/image/D5603AQExyaUztgnL7A/profile-displayphoto-shrink_400_400/0/1692111463402?e=1724889600&v=beta&t=MyiwFuNVwXXxyq4_WTIy0p-MQxJG_ED5emftBquR2sM',
-//     socialMedia: [
-//       {
-//         linkedIn: 'https://www.linkedin.com/in/saman-hoseinpour-202280221/',
-//         instagram: '',
-//         github: 'https://github.com/samanhoseinpour',
-//       },
-//     ],
-//   },
-// ];
 
 export const team = [
   {
@@ -549,42 +545,42 @@ export const team = [
 export const servicesCarousel = [
   {
     id: 1,
-    title: 'Dji Drone Avata',
+    title: 'Videography',
     img: '../../public/assets/images/services/drone-dji.png',
     imageWidth: 1000,
     imageHeight: 1000,
   },
   {
     id: 2,
-    title: 'Sony FX 3',
+    title: 'Photography',
     img: '../../public/assets/images/services/FX3.png',
     imageWidth: 1000,
     imageHeight: 1200,
   },
   {
     id: 3,
-    title: 'Dji Drone Avata',
+    title: 'Website Design',
     img: '../../public/assets/images/services/drone-dji.png',
     imageWidth: 1000,
     imageHeight: 1000,
   },
   {
     id: 4,
-    title: 'Sony FX 3',
+    title: 'Advertising',
     img: '../../public/assets/images/services/FX3.png',
     imageWidth: 1000,
     imageHeight: 1200,
   },
   {
     id: 5,
-    title: 'Dji Drone Avata',
+    title: 'Content Creation',
     img: '../../public/assets/images/services/drone-dji.png',
     imageWidth: 1000,
     imageHeight: 1000,
   },
   {
     id: 6,
-    title: 'Sony FX 3',
+    title: 'Social Media Management',
     img: '../../public/assets/images/services/FX3.png',
     imageWidth: 1000,
     imageHeight: 1200,

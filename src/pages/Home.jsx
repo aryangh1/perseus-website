@@ -10,17 +10,15 @@ import {
 
 const HomePage = () => {
   return (
-    <>
-      <main className="bg-black">
-        <Hero />
-        <Highlights />
-        <Services />
-        <Features />
-        <Gallery />
-        <Clients />
-        <HowItWorks />
-      </main>
-    </>
+    <main className="bg-black">
+      <Hero />
+      <Highlights />
+      <Services />
+      <Features />
+      <Gallery />
+      <Clients />
+      <HowItWorks />
+    </main>
   );
 };
 

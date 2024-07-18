@@ -1,19 +1,19 @@
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-import { perseusHeroVideo, perseusSmallHeroVideo } from '../utils';
+import { perseusSmallHeroVideo, perseusLogoMotion } from '../utils';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
   const [videoSrc, setVideoSrc] = useState(
-    window.innerWidth < 760 ? perseusSmallHeroVideo : perseusHeroVideo
+    window.innerWidth < 760 ? perseusSmallHeroVideo : perseusLogoMotion
   );
 
   const handleVideoSrcSet = () => {
     if (window.innerWidth < 760) {
       setVideoSrc(perseusSmallHeroVideo);
     } else {
-      setVideoSrc(perseusHeroVideo);
+      setVideoSrc(perseusLogoMotion);
     }
   };
 
@@ -26,21 +26,18 @@ const Hero = () => {
   }, []);
 
   useGSAP(() => {
-    gsap.to('#hero', { opacity: 1, delay: 1 });
-    gsap.to('#cta', { opacity: 1, y: -50, delay: 1.5 });
+    gsap.to('#cta', { opacity: 1, y: -120, delay: 1.5 });
   }, []);
 
   return (
-    <section className="w-full nav-height bg-black relative">
+    <section className="w-full nav-height bg-black relative mt-6">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero" className="hero-title">
-          Beyond Boundaries
-        </p>
         <div className="md:w-10/12 w-9/12">
           <video
             className="pointer-events-none"
             autoPlay
             muted
+            loop
             playsInline={true}
             key={videoSrc}
           >
@@ -51,7 +48,7 @@ const Hero = () => {
 
       <div
         id="cta"
-        className="flex flex-col items-center opacity-0 translate-y-20"
+        className="flex flex-col items-center opacity-0 translate-y-120"
       >
         <a href="/contact" className="btn">
           Get In Touch

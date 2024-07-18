@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion } from 'framer-motion';
 
-import { navLists } from '../constants';
+import { navLists, hamburgerLists } from '../constants';
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -41,7 +41,8 @@ const Navbar = () => {
                 className="fixed left-0 shadow-4xl right-0 top-[6.5rem] p-5 pt-0 z-40"
               >
                 <ul className="grid gap-2">
-                  {navLists.map((mobileNav, idx) => {
+                  {hamburgerLists.map((hamburgerList, idx) => {
+                    const { Icon } = hamburgerList;
                     return (
                       <motion.li
                         initial={{ scale: 0, opacity: 0 }}
@@ -52,7 +53,7 @@ const Navbar = () => {
                           damping: 20,
                           delay: 0.1 + idx / 10,
                         }}
-                        key={mobileNav.id}
+                        key={hamburgerList.id}
                         className="w-full p-[0.08rem] rounded-xl bg-gradient-to-tr from-neutral-800 via-neutral-950 to-neutral-700"
                       >
                         <a
@@ -60,11 +61,12 @@ const Navbar = () => {
                           className={
                             'flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950'
                           }
-                          href={mobileNav.href}
+                          href={hamburgerList.href}
                         >
                           <span className="flex gap-1 text-lg">
-                            {mobileNav.label}
+                            {hamburgerList.label}
                           </span>
+                          <Icon width={24} height={24} />
                         </a>
                       </motion.li>
                     );

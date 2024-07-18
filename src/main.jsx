@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
-import { Navbar, Footer } from './components';
+import { Navbar, Footer, ProgressBar, ScrollBtn } from './components';
 
 import * as Sentry from '@sentry/react';
 
@@ -27,8 +27,10 @@ Sentry.init({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ProgressBar />
     <Navbar />
     <App />
+    <ScrollBtn />
     <Footer />
   </React.StrictMode>
 );
