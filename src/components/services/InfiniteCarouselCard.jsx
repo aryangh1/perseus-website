@@ -19,10 +19,10 @@ const InfiniteCarouselCard = ({ image }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <div className="absolute bg-black pointer-events-none opacity-50 h-full w-full" />
+            <div className="absolute bg-black pointer-events-none opacity-50 h-full w-full cursor-pointer" />
             <motion.a
               href="/production"
-              className="bg-zinc font-semibold text-sm z-10 px-3 py-2 rounded-full flex items-center gap-2 hover:opacity-75 cursor-pointer"
+              className="bg-zinc font-semibold text-sm z-10 px-3 py-2 rounded-full flex items-center gap-2 hover:opacity-75"
               initial={{ y: 10 }}
               animate={{ y: 0 }}
               exit={{ y: 10 }}
