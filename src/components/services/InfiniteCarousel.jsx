@@ -1,11 +1,17 @@
 import { useEffect, useState } from 'react';
 import useMeasure from 'react-use-measure';
 import { animate, useMotionValue, motion } from 'framer-motion';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 import { infiniteCarouselImgs } from '../../constants/services';
 import InfiniteCarouselCard from './InfiniteCarouselCard';
 
 const InfiniteCarousel = () => {
+  useGSAP(() => {
+    gsap.to('#production', { opacity: 1, y: 0 });
+  }, []);
+
   const FAST_DURATION = 50;
   const SLOW_DURATION = 100;
 
@@ -45,7 +51,12 @@ const InfiniteCarousel = () => {
   }, [xTranslation, width, duration, rerender]);
 
   return (
-    <section className="py-8 mb-[500px] mt-24">
+    <section className="py-8 mb-[500px] mt-32">
+      <div className="mb-24 w-full md:flex items-start justify-between">
+        <h1 id="production" className="section-heading">
+          Glimpse into our Production
+        </h1>
+      </div>
       <motion.div
         className="absolute left-0 flex gap-4"
         ref={ref}
