@@ -1,13 +1,7 @@
 import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 
-const ServicesVideoSection = ({
-  video,
-  setVideo,
-  setBgOpacity,
-  children,
-  ...props
-}) => {
+const ServicesVideoSection = ({ setBgOpacity, children, ...props }) => {
   const contentRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -27,19 +21,13 @@ const ServicesVideoSection = ({
     [0.7, 0.3, 0.3, 0.7]
   );
 
-  scrollYProgress.on('change', (val) => {
-    if (val > 0 || val < 1) {
-      setVideo(video);
-    }
-  });
-
   bgOpacity.on('change', (val) => {
     setBgOpacity(val);
   });
 
   return (
     <section
-      className="relative flex flex-col items-center justify-center"
+      className="relative flex flex-col items-center justify-center mt-[300px] mb-[-900px]"
       {...props}
     >
       <motion.div

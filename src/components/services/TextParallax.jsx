@@ -10,7 +10,7 @@ const TextParallax = () => {
   });
 
   return (
-    <section ref={container} className="mt-24">
+    <section ref={container} className="mt-[300px]">
       <Slide
         src={perseusWhiteImg}
         direction={'left'}

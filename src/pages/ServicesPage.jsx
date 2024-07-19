@@ -6,6 +6,7 @@ import {
   ServicesStats,
   ServicesProduct,
   ServicesVideoText,
+  InfiniteCarousel,
 } from '../components';
 
 const ServicesPage = () => {
@@ -17,11 +18,12 @@ const ServicesPage = () => {
           subHeading="change your business path from 0 to 100 real quick"
           headingID="servicesPageTitle"
         />
-        {/* <ServicesVideoText /> */}
         <ServicesProduct />
+        <ServicesVideoText />
         <TextParallax />
-        <ServicesCarousel />
+        <InfiniteCarousel />
         <ServicesStats />
+        <ServicesCarousel />
       </section>
     </AnimatedRoutes>
   );

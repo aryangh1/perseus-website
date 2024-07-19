@@ -22,6 +22,7 @@ import TextParallax from './services/TextParallax';
 import ServicesProduct from './services/ServicesProduct';
 import ServicesProductCard from './services/ServicesProductCard';
 import ServicesVideoText from './services/ServicesVideoText';
+import InfiniteCarousel from './services/InfiniteCarousel';
 
 import AnimatedRoutes from './AnimatedRoutes';
 import Team from './Team';
@@ -53,6 +54,7 @@ export {
   ServicesProduct,
   ServicesProductCard,
   ServicesVideoText,
+  InfiniteCarousel,
   AnimatedRoutes,
   Team,
   ScrollBtn,
