@@ -14,16 +14,16 @@ const ServicesPage = () => {
     <AnimatedRoutes>
       <section className="heading-style">
         <HeadingText
-          heading="Build your Vision"
-          subHeading="change your business path from 0 to 100 real quick"
+          heading="Accelerate Your Reach"
+          subHeading="Turn your marketing vision into reality fast."
           headingID="servicesPageTitle"
         />
         <ServicesProduct />
         <ServicesVideoText />
+        <ServicesCarousel />
         <TextParallax />
         <InfiniteCarousel />
         <ServicesStats />
-        <ServicesCarousel />
       </section>
     </AnimatedRoutes>
   );

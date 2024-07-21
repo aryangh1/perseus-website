@@ -15,16 +15,16 @@ const ServicesVideoText = () => {
           />
         </div>
         <ServicesVideoSection setBgOpacity={setBgOpacity}>
-          Welcome to the era of scroll animations.
+          Perseus: Your full-service partner.
         </ServicesVideoSection>
         <ServicesVideoSection setBgOpacity={setBgOpacity}>
-          This demo seamlessly blends video content with aesthetic interactions.
+          We create winning marketing and content.
         </ServicesVideoSection>
         <ServicesVideoSection setBgOpacity={setBgOpacity}>
-          You navigate simply by scrolling.
+          Innovation drives our success.
         </ServicesVideoSection>
         <ServicesVideoSection setBgOpacity={setBgOpacity}>
-          You've never seen everything like this before.
+          Your vision, our expertise.
         </ServicesVideoSection>
       </section>
     </section>

@@ -44,6 +44,7 @@ import {
   forthGallery2Img,
   forthGallery3Img,
   forthGallery4Img,
+  forthGallery8Img,
   forthGallery9Img,
   forthGallery10Img,
   forthGallery11Img,
@@ -441,14 +442,14 @@ export const forthGalleryImg = [
   //   id: 7,
   //   srcImg: forthGallery7Img,
   // },
-  // {
-  //   id: 8,
-  //   srcImg: forthGallery8Img,
-  // },
   {
-    id: 9,
-    srcImg: forthGallery9Img,
+    id: 8,
+    srcImg: forthGallery8Img,
   },
+  // {
+  //   id: 9,
+  //   srcImg: forthGallery9Img,
+  // },
   {
     id: 10,
     srcImg: forthGallery10Img,

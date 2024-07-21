@@ -25,7 +25,6 @@ import kengo1 from '/assets/images/kengo1.jpg';
 import kengo2 from '/assets/images/kengo2.jpg';
 import kengo3 from '/assets/images/kengo3.jpg';
 import kengo4 from '/assets/images/kengo4.jpg';
-import droneRealEstate from '/assets/images/drone-realEstate.jpg';
 
 import CFR1 from '/assets/images/CFR1.jpg';
 import CFR2 from '/assets/images/CFR2.jpg';
@@ -59,8 +58,6 @@ import gsc from '/assets/images/partnerships/gsc.jpg';
 import cindys from '/assets/images/partnerships/cindys.jpg';
 import wvtc from '/assets/images/partnerships/wvtc.png';
 
-import gallery1 from '/assets/images/gallery1.jpg';
-
 // second gallery
 import secondGallery1 from '/assets/images/secondGallery/secondGallery1.jpg';
 import secondGallery2 from '/assets/images/secondGallery/secondGallery2.jpg';
@@ -70,6 +67,7 @@ import secondGallery5 from '/assets/images/secondGallery/secondGallery5.jpg';
 import secondGallery6 from '/assets/images/secondGallery/secondGallery6.jpg';
 import secondGallery7 from '/assets/images/secondGallery/secondGallery7.jpg';
 import secondGallery8 from '/assets/images/secondGallery/secondGallery8.jpg';
+import secondGallery9 from '/assets/images/secondGallery/arshiaEsmaeiliHeadshot.jpg';
 
 // third gallery
 import thirdGallery1 from '/assets/images/thirdGallery/thirdGallery1.jpg';
@@ -120,7 +118,6 @@ export const kengo1Img = kengo1;
 export const kengo2Img = kengo2;
 export const kengo3Img = kengo3;
 export const kengo4Img = kengo4;
-export const droneRealEstateImg = droneRealEstate;
 export const CFR1Img = CFR1;
 export const CFR2Img = CFR2;
 export const CFR3Img = CFR3;
@@ -154,8 +151,6 @@ export const gscLogo = gsc;
 export const cindysLogo = cindys;
 export const wvtcLogo = wvtc;
 
-export const gallery1Img = gallery1;
-
 // 2nd & 3rd & 4th gallery
 export const secondGallery1Img = secondGallery1;
 export const secondGallery2Img = secondGallery2;
@@ -165,6 +160,7 @@ export const secondGallery5Img = secondGallery5;
 export const secondGallery6Img = secondGallery6;
 export const secondGallery7Img = secondGallery7;
 export const secondGallery8Img = secondGallery8;
+export const secondGallery9Img = secondGallery9;
 
 export const thirdGallery1Img = thirdGallery1;
 export const thirdGallery2Img = thirdGallery2;

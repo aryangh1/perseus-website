@@ -6,7 +6,6 @@ import {
   genesis1Img,
   kengo1Img,
   kengo2Img,
-  droneRealEstateImg,
 } from '../utils';
 
 const Features = () => {
@@ -115,8 +114,8 @@ const Features = () => {
               <div className="feature-video-container mt-4 max-sm:hidden">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
-                    src={droneRealEstateImg}
-                    alt="drone image"
+                    src={kengo2Img}
+                    alt="real estate image"
                     className="feature-video g_grow"
                   />
                 </div>

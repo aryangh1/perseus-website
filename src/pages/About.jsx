@@ -15,7 +15,7 @@ const About = () => {
           subHeadingStyle="text-center"
         />
 
-        {/* <Team /> */}
+        <Team />
 
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 text-center">
           <a href="/contact" className="btn px-12">

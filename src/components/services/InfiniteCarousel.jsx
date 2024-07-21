@@ -12,8 +12,8 @@ const InfiniteCarousel = () => {
     gsap.to('#production', { opacity: 1, y: 0 });
   }, []);
 
-  const FAST_DURATION = 50;
-  const SLOW_DURATION = 100;
+  const FAST_DURATION = 75;
+  const SLOW_DURATION = 150;
 
   const [duration, setDuration] = useState(FAST_DURATION);
 
@@ -52,10 +52,13 @@ const InfiniteCarousel = () => {
 
   return (
     <section className="py-8 mb-[500px] mt-32">
-      <div className="mb-24 w-full md:flex items-start justify-between">
+      <div className="mb-24 w-full md:flex flex-col items-start justify-between">
         <h1 id="production" className="section-heading">
-          Glimpse into our Production
+          Discover Our Creativity
         </h1>
+        <p className="font-normal text-xl text-left mt-6">
+          Witness the results of our passion and dedication.
+        </p>
       </div>
       <motion.div
         className="absolute left-0 flex gap-4"

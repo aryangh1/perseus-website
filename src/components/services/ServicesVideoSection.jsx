@@ -27,7 +27,7 @@ const ServicesVideoSection = ({ setBgOpacity, children, ...props }) => {
 
   return (
     <section
-      className="relative flex flex-col items-center justify-center mt-[300px] mb-[-900px]"
+      className="relative flex flex-col items-center justify-center mt-[300px] mb-[-700px] last:mb-[-900px]"
       {...props}
     >
       <motion.div

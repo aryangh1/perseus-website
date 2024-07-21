@@ -1,5 +1,11 @@
 import { useRef, useState, useEffect } from 'react';
-import { frameImg, perseusWhiteImg, coqVideo, coqLargeVideo } from '../utils';
+import {
+  frameImg,
+  perseusWhiteImg,
+  coqVideo,
+  coqLargeVideo,
+  adsVideo,
+} from '../utils';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { animateWithGsap } from '../utils/animations';
