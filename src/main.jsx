@@ -5,6 +5,7 @@ import App from './App.jsx';
 import { Navbar, Footer, ProgressBar, ScrollBtn } from './components';
 
 import * as Sentry from '@sentry/react';
+import * as ServiceWorker from './serviceWorkerRegistration.js';
 
 Sentry.init({
   dsn: 'https://ebc6570948683f0fcdef112167375cea@o4506989683212288.ingest.us.sentry.io/4506989684195328',
@@ -34,3 +35,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Footer />
   </React.StrictMode>
 );
+
+ServiceWorker.register();

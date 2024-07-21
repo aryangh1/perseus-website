@@ -13,7 +13,7 @@ const Navbar = () => {
   useClickAway((ref) => setOpen(false));
 
   return (
-    <header className="w-full py-12 sm:px-10 px-5 flex justify-around items-center">
+    <header className="w-full py-12 2xl:py-14 sm:px-10 px-5 flex justify-around items-center z-50">
       <nav className="flex w-full scrim-max-width">
         <div className="flex flex-1 justify-around">
           {navLists.map((nav) => (
